@@ -54,10 +54,6 @@ header {
     border-bottom: solid .5em; */
 }
 
-.coursetitle {
-    
-}
-
 nav {
     font-size: medium;
     min-width: 800px; 
@@ -89,7 +85,6 @@ li a {
     box-shadow: inset 0 0 0 0 var(--accent1-color);
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     border-radius: 5rem;
-
 
 }
 
@@ -159,11 +154,6 @@ footer {
 
 }
 
-/* this errored  */
-/* .currentyear {
-    const currentyear = document.querySelector("#year");
-} */
-
 .lastmodified {
     margin: 0;
     float: right;
@@ -175,7 +165,5 @@ footer {
     font-weight: 700;
     padding: 0px;
     border-top: solid .5em;
-
-
 
 }
