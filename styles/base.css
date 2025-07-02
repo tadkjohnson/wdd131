@@ -24,8 +24,8 @@ h2 {
     text-align: center;
     background-color: rgba(240, 98, 98, 0.836);
     margin-bottom: 1rem;
-    
-} 
+
+}
 
 header {
     background-color: rgba(240, 98, 98, 0.836);
@@ -87,7 +87,7 @@ main {
 h2 {
     background-color: #e4e4e4;
     padding-block: 1em;
-} 
+}
 
 .grid {
     max-width: 1000px;
@@ -132,11 +132,12 @@ main img {
 }
 
 footer {
-    
+
     padding: .5em;
     margin: 2em;
 
 }
+
 /* this errored  */
 /* .currentyear {
     const currentyear = document.querySelector("#year");
@@ -145,8 +146,8 @@ footer {
 .lastmodified {
     margin: 0;
     float: right;
-    
-} 
+
+}
 
 footer {
     background-color: rgba(163, 151, 151, 0.452);
