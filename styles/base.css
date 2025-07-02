@@ -1,9 +1,6 @@
 :root {
-    /* --heading-background-color:#252525; */
-    /* --heading-text-color:   ; */
     --accent1-color: #91ccee;
     --accent2-color: rgba(240, 98, 98, 0.836);
-    /* --heading-text-color3:  ; */
     --heading-font: ".lato-bold", sans-serif;
     --body-font: ".roboto", sans-serif;
 }
