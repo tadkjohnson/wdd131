@@ -5,6 +5,27 @@
     --body-font: ".roboto", sans-serif;
 }
 
+roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
     margin: 0 auto;
 }
@@ -38,7 +59,7 @@ header {
 nav {
     margin: 0 auto;
     background-color: #e4e4e4;
-    font-weight: 600;
+    font-weight: 700;
     border-bottom: solid .15em;
 }
 
@@ -107,7 +128,7 @@ button {
     margin: .5rem;
     background-color: var(--secondary-color);
     color: var(--accent1-color);
-    font-weight: 600;
+    font-weight: 700;
     border: 1px solid var(--accent1-color);
     border-radius: 5rem;
     padding: .2rem;
@@ -116,7 +137,7 @@ button {
 button:hover {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
-    font-weight: 600;
+    font-weight: 700;
 
 }
 
