@@ -14,6 +14,21 @@
     margin: 0 auto;
 }
 
+h1 {
+    display: flex;
+    justify-content: space-around;
+    padding: .5em;
+}
+
+
+h2 {
+    display: block;
+    text-align: center;
+    background-color: rgba(240, 98, 98, 0.836);
+    margin-bottom: 1rem;
+    
+} 
+
 header {
     background-color: rgba(240, 98, 98, 0.836);
     font-size: x-large;
@@ -67,38 +82,30 @@ li a:hover {
 
 }
 
-h1,
+main {
+    max-width: 1200px;
+}
+
 h2 {
-    display: flex;
-    justify-content: space-around;
-    padding: .5em;
-}
-
-.me {
-    text-align: center;
-    column: 2-3;
-
-}
+    background-color: #e4e4e4;
+    padding-block: 1em;
+} 
 
 .grid {
-    max-width: 1200px;
+    max-width: 1000px;
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    column-gap: 0;
-
+    grid-template-columns: 2fr 1fr;
 
 }
 
 .card {
-    background-color: #ada3a3;
+    /* background-color: #ada3a3; */
     padding: 20px;
-
+    border: solid 5px rgb(30, 145, 106);
 }
 
 .card img {
     margin: .5em;
-
-
 }
 
 button {
@@ -127,7 +134,27 @@ main img {
 }
 
 footer {
+    
     padding: .5em;
     margin: 2em;
+
+}
+.currentyear {
+    const currentyear = document.querySelector("#year");
+}
+
+.lastmodified {
+    margin: 0;
+    float: right;
+    
+} 
+
+footer {
+    background-color: rgba(163, 151, 151, 0.452);
+    font-weight: 700;
+    padding: 0px;
+    border-top: solid .5em;
+
+
 
 }
