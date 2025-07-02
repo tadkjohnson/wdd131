@@ -46,17 +46,33 @@ h2 {
 }
 
 header {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    font-size: x-large;
+    font-weight: 700;
+    /* justify-content: space-around; */
     background-color: rgba(240, 98, 98, 0.836);
+    padding: 10px;
+    border-bottom: solid .5em; */
+}
+.coursetitle {
+    display: flex;
+    flex: row 1;
     font-size: x-large;
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(240, 98, 98, 0.836);
     padding: 10px;
     border-bottom: solid .5em;
-}
 
+}
 nav {
+    flex: row 2;
     margin: 0 auto;
     background-color: #e4e4e4;
     font-weight: 700;
