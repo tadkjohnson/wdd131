@@ -1,7 +1,7 @@
 :root {
     --accent1-color: #91ccee;
     --accent2-color: rgba(240, 98, 98, 0.836);
-    --heading-font: ".lato-bold", sans-serif;
+    --heading-font: ".lato", sans-serif;
     --body-font: ".roboto", sans-serif;
 }
 
