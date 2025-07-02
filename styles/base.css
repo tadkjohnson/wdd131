@@ -4,10 +4,8 @@
     --accent1-color: #91ccee;
     --accent2-color: rgba(240, 98, 98, 0.836);
     /* --heading-text-color3:  ; */
-    */
-    /* --box-border-color: ; */
-    --heading-font: "Trebuchet", Helvetica, sans-serif;
-    --body-font: "Georgia", sans-serif;
+    --heading-font: ".lato-bold", sans-serif;
+    --body-font: ".roboto", sans-serif;
 }
 
 * {
@@ -139,9 +137,10 @@ footer {
     margin: 2em;
 
 }
-.currentyear {
+/* this errored  */
+/* .currentyear {
     const currentyear = document.querySelector("#year");
-}
+} */
 
 .lastmodified {
     margin: 0;
