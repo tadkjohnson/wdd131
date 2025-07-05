@@ -14,13 +14,26 @@ list.append(li);
 
 
 
+button.addEventListener('click' function () {
+
+});
+
+
+if (input.value.trim() !== '') {... }
 
 
 
+deleteButton.addEventListener('click', funciton() {
+    list.removeChild(li);
+    input.focus();
+});
 
+input.value = '';
+input.focus();
 
+// below is the info from previous activity
 
+const username = "Tad's best personality";  //this makes username a constant of tads best personality
+const welcomeMsg = document.getElementById("welcome-msg");    //this loads the elemet that is id'ed by welcome-msg
 
-
-
-
+welcomeMsg.textContent += username === "" ? 'guest' : username;   //=== strictly equal to     the += is a string cantination   if its empty itshows guest otherwise it uses the username laoded

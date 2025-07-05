@@ -64,7 +64,14 @@ Array.forEach(function (element) {
 });
 
 
+//click event
+// buttonElement.addEventlistener('click', function() { //code to execute when the element is clicked });
 
+//keyup event triggered when a key is released useful for handling keyboard input
+    //buttonElement.addEventListener('keyup', function() { //code to execute when a key is released });
+    
+//domcontentloaded event  triggered when the html doc is executed  used for initializing javascript applicaitons
+//document.addEventListener("DOMContentLoaded", function() { //code to texecute when the DOM is parsed });
 
 
 
