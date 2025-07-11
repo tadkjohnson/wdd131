@@ -75,6 +75,16 @@
     }
 
 }
+h1 {
+     display: block;
+     text-align: center;
+     border-bottom: 1px solid;
+}
+    
+h2 {
+    margin: 1em;
+    text-align: end;
+}
 
 header {
     max-width: 100%;
