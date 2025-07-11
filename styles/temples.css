@@ -18,7 +18,6 @@
     }
 
     .title {
-
         font-size: 1.5rem;
     }
 
@@ -44,8 +43,7 @@
         text-decoration: none;
         /* color:rgba(163, 151, 151, 0.452) */
         font-weight: 700;
-        transition: 0.5s;
-        
+        transition: 0.5s;        
     }
 
     .navigation a:hover,
