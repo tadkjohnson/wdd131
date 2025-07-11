@@ -1,0 +1,56 @@
+@media screen and (min-width: 800px) {
+
+    main {
+        margin: 2em auto;
+        max-width: 800px;
+        
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+}
+
+
+nav {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 3px;
+    border-radius: .5rem;
+    border-style: double;
+    padding: .25rem;
+} 
