@@ -1,0 +1,103 @@
+@media screen and (max-width: 800px) {
+
+    main {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    section {
+        padding: 1rem;
+        background-color: #fff;
+        align-self: center;
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    /* small view for hamburger manu thing  */
+
+    .navigation {
+        list-style: none;
+        margin: 0 auto;
+        max-width: 640;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        padding: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+        /* color:rgba(163, 151, 151, 0.452) */
+        font-weight: 700;
+        transition: 0.5s;
+        /* font-size: clamp(1rem, 2vmin, 1.5rem); */
+
+    }
+
+    .navigation a:hover,
+    navigation a:active {
+        color: green;
+    }
+
+    .show li {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        color: #000;
+        position: absolute;
+        top: .5rem;
+        right: 1.5rem;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.show::before {
+        content: "❌";
+    }
+
+    /* #menu.show::before {
+    content: "☰";
+} */
+
+}
+
+header {
+    padding: 1rem;
+    max-width: 100%;
+    display: block;
+    background-color: rgba(163, 151, 151, 0.452);
+    font-weight: 700;
+    padding: 10px 0px 0px 0px;
+    border-bottom: solid .5em;
+}
+
+footer {
+    max-width: 100%;
+    display: block;
+    background-color: rgba(163, 151, 151, 0.452);
+    font-weight: 700;
+    padding: 0px 0px 10px 20px;
+    border-top: solid .5em;
+}
+
+.temple {
+    text-align: center;
+}

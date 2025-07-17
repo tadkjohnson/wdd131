@@ -1,0 +1,12 @@
+
+.card {
+    position: absolute;
+    bottom: 65%;
+    right: 0px;
+    width: 30%;
+    padding: 16px;
+    text-align: center;
+   
+    padding: 20px;
+    border: solid 5px var(--accent3-color);
+}
