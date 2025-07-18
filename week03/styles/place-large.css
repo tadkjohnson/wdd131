@@ -7,17 +7,17 @@
         width: 100%;
         padding: 16px;
         text-align: center;
-        background-color: var(--accent3-color);
+        background-color: var(--accent2-color);
         font-size: 2.25em;
     }
 
+
     .card {
         position: absolute;
-        top: 30%;
-        right: 10px;
+        top: 25%;
+        left: 3%;
         width: 35%;
-
-        border: solid 5px var(--accent3-color);
+        border: solid 5px var(--accent2-color);
 
     }
 
@@ -26,35 +26,10 @@
         width: 100%;
         height: auto;
         display: block;
-        opacity: 0.6;
-    }
-
-    .overlay {
-        position: absolute;
-        top: 20%;
-        text-align: start;
-        list-style-type: none;
-    }
-
-
-    .card2 {
-        position: absolute;
-        top: 85%;
-        left: 3%;
-        width: 35%;
-        border: solid 5px var(--accent3-color);
-
-    }
-
-    .card2 img {
-        position: relative;
-        width: 100%;
-        height: auto;
-        display: block;
         opacity: 0.9;
     }
 
-    .overlay2 {
+    .overlay {
         position: absolute;
         top: 10%;
         width: 70%;
@@ -64,8 +39,37 @@
 
     }
 
+
+    .card2 {
+        position: absolute;
+        top: 85%;
+        right: 10px;
+        width: 35%;
+
+        border: solid 5px var(--accent2-color);
+
+    }
+
+    .card2 img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
+        opacity: 0.6;
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 20%;
+        text-align: start;
+        list-style-type: none;
+    }
+
+
+
     .big-font {
         font-size: 2em;
+        text-align: center;
     }
 
     .weather-font {

@@ -17,7 +17,7 @@
         right: 0px;
         width: 80%;
         padding: 20px;
-        border: solid 5px var(--accent3-color);
+        border: solid 5px var(--accent1-color);
         text-align: center;
     }
 
@@ -33,7 +33,7 @@
         right: 0px;
         width: 80%;
         padding: 20px;
-        border: solid 5px var(--accent3-color);
+        border: solid 5px var(--accent1-color);
         text-align: center;
     }
 
@@ -43,3 +43,4 @@
         display: block;
         text-align: start;
     }
+    

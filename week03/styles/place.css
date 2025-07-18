@@ -1,97 +1,71 @@
- @media screen and (max-width: 499px) {
+ @media screen and (max-width: 500px) {
 
-
-
-     .hero img {
-         max-width: 100%;
-         margin: 0px;
-
-     }
-
-     .card {
-         position: relative;
-         right: 0px;
-         width: 80%;
-         padding: 20px;
-         border: solid 5px var(--accent3-color);
-         text-align: center;
-     }
-
-     .card ul {
-         margin-left: -2em;
-         list-style-type: none;
-         display: block;
-         text-align: start;
-
-     }
-
-     .card2 {
-         right: 0px;
-         width: 80%;
-         padding: 20px;
-         border: solid 5px var(--accent3-color);
-         text-align: center;
-     }
-
-     .overlay2 {
-         margin-left: -2em;
-         list-style-type: none;
-         display: block;
-         text-align: start;
-     }
-
-
-     .card img {
-         margin: .5em;
-     }
-
-
-
-     h1 {
-         display: flex;
-         justify-content: space-around;
-         padding: .5em;
-     }
-
-     .title-h2 {
-         position: absolute;
-         box-sizing: border-box;
-         top: 120px;
-         left: 21px;
-         width: 100%;
-         padding: 16px;
-         text-align: center;
-         background-color: var(--accent3-color);
-         color: var(--accent1-color);
-     }
-
-
-     /* .hero-article {
-     position: absolute;
-     top: 35rem;
-     width: 100%;
-     float: center;
-     background: var(--accent3-color);
- } */
-     /* 
- .hero-article-p {
-     padding: 2rem;
-     left: 0px;
-     right: 0px;
-     color: var(--accent1-color);
-     font-weight: 600;
-     font-size: 1rem;
-     position: relative;     
- } */
-
+    * {
+        max-width: 499px;
+    }
+         
+    .hero img {
+        max-width: 100%;
+        margin: 0px;
+    }
+    .card {
+        position: relative;
+        max-width: 95%;
+        padding: 5px;
+        border: solid 5px var(--accent2-color);
+        text-align: center;
+    }
+    .card ul {
+        margin-left: -2em;
+        list-style-type: none;
+        display: block;
+        text-align: start;
+    }
+    .card2 {
+        right: 0px;
+        max-width: 95%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        border: solid 5px var(--accent2-color);
+        text-align: center;
+    }
+    .overlay2 {
+        margin-left: -2em;
+        list-style-type: none;
+        display: block;
+        text-align: start;
+    }
+    .card img {
+        margin: .2em;
+    }
+    h1 {
+        display: flex;
+        justify-content: space-around;
+        padding: .5em;
+    }
+    .title-h2 {
+        position: absolute;
+        box-sizing: border-box;
+        top: 120px;
+        left: 21px;
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+        background-color: var(--accent3-color-transpart);
+        color: var(--accent1-color);
+    }
+    * {
+        margin: 0 auto;
+        width: 100%;
+    }
 
  }
 
-
  :root {
      --accent1-color: #1826a5;
-     --accent2-color: rgb(255, 252, 74);
-     --accent3-color: rgb(255, 215, 0);
+     --accent2-color: rgb(255, 215, 0);
+     --accent3-color: rgb(255, 215, 0, 0.5);
      --heading-font: ".lato-bold", sans-serif;
      --body-font: ".roboto", sans-serif;
      margin: 1.5em;
@@ -118,18 +92,11 @@
  }
 
 
-
-
-
-
-
-
-
-
  .title-span {
      display: block;
-     position: absolute;
+     position: sticky;
      text-align: center;
+
  }
 
  header {
@@ -139,18 +106,18 @@
      grid-template-rows: auto auto;
      font-size: 3em;
      font-weight: 700;
-     background-color: var(--accent3-color);
-     padding: 10px;
+     background-color: var(--accent2-color);
+     padding: 5px;
      border-bottom: solid .5em;
  }
 
-
- .ending {
+ footer {
+     margin-top: 5px;
      margin: 0;
      display: grid;
      font-size: x-large;
      font-weight: 700;
-     background-color: var(--accent3-color);
+     background-color: var(--accent2-color);
      padding: 10px;
      border-top: solid .5em;
      text-align: center;
@@ -158,45 +125,8 @@
 
  .one-line {
      display: inline-block;
-
  }
 
  .small-font {
      font-size: 70%;
- }
-
-
- :root {
-     --accent1-color: #1826a5;
-     --accent2-color: rgb(255, 252, 74);
-     --accent3-color: rgb(255, 215, 0);
-     --heading-font: ".lato-bold", sans-serif;
-     --body-font: ".roboto", sans-serif;
- }
-
- .roboto {
-     font-family: "Roboto", sans-serif;
-     font-style: normal;
-     font-variation-settings:
-         "wdth" 100;
- }
-
- .lato-regular {
-     font-family: "Lato", sans-serif;
-     font-weight: 400;
-     font-style: normal;
- }
-
- .lato-bold {
-     font-family: "Lato", sans-serif;
-     font-weight: 700;
-     font-style: normal;
- }
-
-
-
-
- * {
-     margin: 0 auto;
-     width: 100%;
  }
