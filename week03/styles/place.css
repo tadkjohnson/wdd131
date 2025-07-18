@@ -58,6 +58,11 @@
         background-color: var(--accent3-color-transpart);
         color: var(--accent1-color);
     }
+    .icon-sm {
+        display:inline;
+        width: 32px;
+        
+    }
   
 }
 

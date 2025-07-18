@@ -24,6 +24,7 @@
     .card img {
         position: relative;
         width: 100%;
+
     }
 
     .overlay {
@@ -53,14 +54,16 @@
         width: 100%;
         height: auto;
         display: block;
-        opacity: 0.6;
+        opacity: 0.2;
     }
 
     .overlay2 {
         position: absolute;
-        top: 10px;
+        top: 5px;
         text-align: start;
         list-style-type: none;
+        font-weight: 700;
+        font-size: large;
     }
 
 
@@ -76,12 +79,19 @@
         font-weight: 700;
         padding-bottom: 1px;
     }
-  
+
+    .icon-sm {
+        display: inline;
+        max-width: 64px;
+
+    }
+
 
     .weather-heading::before {
         content: "";
-        display: none; /* hidden by default */
-}
+        display: none;
+        /* hidden by default */
+    }
 
     .weather-heading::after {
         content: "";
@@ -92,7 +102,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        margin-left: 10px; /* space between text and icon */
+        margin-left: 10px;
+        /* space between text and icon */
         vertical-align: middle;
 
-}
+    }
