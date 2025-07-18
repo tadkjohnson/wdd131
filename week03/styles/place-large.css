@@ -1,12 +1,107 @@
+@media screen and (min-width: 1000px) {
 
-.card {
-    position: absolute;
-    bottom: 65%;
-    right: 0px;
-    width: 30%;
-    padding: 16px;
-    text-align: center;
-   
-    padding: 20px;
-    border: solid 5px var(--accent3-color);
+    :root {
+        --accent1-color: #1826a5;
+        --accent2-color: rgb(255, 252, 74);
+        --accent3-color: rgb(255, 215, 0);
+        --heading-font: ".lato-bold", sans-serif;
+        --body-font: ".roboto", sans-serif;
+    }
+
+    .roboto {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    .lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .lato-bold {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    * {
+        margin: 0 auto;
+    }
+
+    .hero h2 {
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+        background-color: var(--accent3-color);
+        font-size: 2.25em;
+    }
+
+    .card {
+        position: absolute;
+        top: 30%;
+        right: 10px;
+        width: 35%;
+        /* align-items: center; */
+        /* padding: 10px; */
+        /* text-align: center; */
+        border: solid 5px var(--accent3-color);
+
+    }
+
+    .card img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
+        opacity: 0.6;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 20%;
+        text-align: start;
+        list-style-type: none;
+    }
+
+
+    .card2 {
+        position: absolute;
+        bottom: 0%;
+        left: 10px;
+        width: 25%;
+        
+        /* align-items: center; */
+        /* padding: 10px; */
+        /* text-align: center; */
+        border: solid 5px var(--accent3-color);
+
+    }
+
+    .card2 img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
+        opacity: 0.8;
+    }
+
+    .overlay2 {
+        position: absolute;
+        bottom: 20%;
+        text-align: start;
+        list-style-type: none;
+    }
+
+    .big-font {
+        font-size: 2em;
+    }
+    .weather-font {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
 }

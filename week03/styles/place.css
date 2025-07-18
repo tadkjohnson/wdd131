@@ -1,4 +1,6 @@
-@media screen and (min-width: 800px) {
+/* @media screen and (max-width: 500px) {
+}
+
     :root {
         --accent1-color: #1826a5;
         --accent2-color: rgb(255, 252, 74);
@@ -33,6 +35,33 @@
         margin: 0 auto;
     }
 
+/* 
+.grid {
+    position: relative; 
+    max-width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr;
+
+} 
+
+
+.card {
+    position: absolute;
+    bottom: 65%;
+    right: 0px;
+    width: 30%;
+    padding: 16px;
+    text-align: center;
+   
+    padding: 20px;
+    border: solid 5px var(--accent3-color);
+} */
+
+
+
+
+
 
     .hero img {
         width: 100%;
@@ -40,13 +69,7 @@
 
     }
 
-    .grid {
-        max-width: 100%;
-        display: grid;
-        align-items: center;
-        grid-template-columns: 2fr;
-
-    }
+ 
 /* set up the inserts in the pic on large view, medium   small they fall under neath */
     .card {
 
@@ -83,28 +106,22 @@
 
 
 
-    h1 {
-        display: flex;
-        justify-content: space-around;
-        padding: .5em;
-    }
-
-
-    .hero h2 {
-        position: absolute;
-        top: 120px;
-        left: 0px;
-        width: 100%;
-        padding: 16px;
-        text-align: center;
-        background-color: var(--accent3-color);
-        color: var(--secondary-color);
-
-    }
-
-
-
-    /* .hero img {
+h1 {
+    display: flex;
+    justify-content: space-around;
+    padding: .5em;
+}
+.hero h2 {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent3-color);
+    color: var(--secondary-color);
+}
+ /* .hero img {
     display: block;
     width: 100%;
     height: auto;
@@ -136,7 +153,7 @@
 
 
 
-
+}
 
 
 
@@ -265,4 +282,4 @@ footer {
     padding: 0px;
     border-top: solid .5em;
 
-} */
+} */ */
