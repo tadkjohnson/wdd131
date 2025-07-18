@@ -1,0 +1,45 @@
+@media screen and (min-width: 499px) and (max-width:1499px) {
+
+
+    .title-h2 {
+        position: absolute;
+        box-sizing: border-box;
+        top: 120px;
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+        background-color: var(--accent3-color);
+        font-size: 2.25em;
+    }
+
+    .card {
+        position: relative;
+        right: 0px;
+        width: 80%;
+        padding: 20px;
+        border: solid 5px var(--accent3-color);
+        text-align: center;
+    }
+
+    .card ul {
+        margin-left: -2em;
+        list-style-type: none;
+        display: block;
+        text-align: start;
+
+    }
+
+    .card2 {
+        right: 0px;
+        width: 80%;
+        padding: 20px;
+        border: solid 5px var(--accent3-color);
+        text-align: center;
+    }
+
+    .overlay2 {
+        margin-left: -2em;
+        list-style-type: none;
+        display: block;
+        text-align: start;
+    }

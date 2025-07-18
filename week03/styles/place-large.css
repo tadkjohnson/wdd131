@@ -1,38 +1,8 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1500px) {
 
-    :root {
-        --accent1-color: #1826a5;
-        --accent2-color: rgb(255, 252, 74);
-        --accent3-color: rgb(255, 215, 0);
-        --heading-font: ".lato-bold", sans-serif;
-        --body-font: ".roboto", sans-serif;
-    }
-
-    .roboto {
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" 100;
-    }
-
-    .lato-regular {
-        font-family: "Lato", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-
-    .lato-bold {
-        font-family: "Lato", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-    }
-
-    * {
-        margin: 0 auto;
-    }
-
-    .hero h2 {
+    .title-h2 {
         position: absolute;
+        box-sizing: border-box;
         top: 120px;
         width: 100%;
         padding: 16px;
@@ -69,8 +39,8 @@
 
     .card2 {
         position: absolute;
-        top: 90%;
-        left: 5px;
+        top: 85%;
+        left: 3%;
         width: 35%;
         border: solid 5px var(--accent3-color);
 
@@ -81,15 +51,17 @@
         width: 100%;
         height: auto;
         display: block;
-        opacity: 0.8;
+        opacity: 0.9;
     }
 
     .overlay2 {
         position: absolute;
         top: 10%;
         width: 70%;
+        font-size: large;
         list-style-type: none;
         margin-left: 8em;
+
     }
 
     .big-font {
@@ -100,8 +72,7 @@
         font-size: 1.5em;
         font-weight: 700;
     }
-  
-  
+
+
 
 }
-

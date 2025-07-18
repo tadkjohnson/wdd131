@@ -8,25 +8,26 @@
     <meta name="description" content="Alaska - As seen by Tad Johnson on a family vacation.">
     <meta name="author" content="Tad Johnson">
     <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-medium.css">
     <link rel="stylesheet" href="styles/place-large.css">
     <script src="scripts/place.js" defer></script>
 </head>
 
 <body>
-    <header>
+    <header class="title-span">
         <span id="title">Alaska</span>
     </header>
     <main>
 
-        <div class="hero img">
-            <picture>
+        <div>
+            <picture class="hero img">
                 <source media="(min-width:1000px)" srcset="images/mountain-2500.webp" width="100%">
                 <!-- need to crop down the mountain pic to remove some sky and shorten it -->
                 <source media="(min-width:500px)" srcset="images/alaska-med.jpg">
                 <img src="images/alaska-small.jpg" alt="Alaska coastal mountain" width="500">
                 <!-- change all the hero pics to webpimage format -->
             </picture>
-            <h2 class="hero h2">The Final Frontier</h2>
+            <h2 class="title-h2">The Final Frontier</h2>
 
             <section class="card">
                 <h3 class="big-font">Information</h3>
@@ -40,7 +41,6 @@
                     <li>6,640 miles of coast</li>
                     <li>and over 70 potentially active volcanoes.</li>
                     <li>Tourist season goes from May to Sept.</li>
-
                 </ul>
 
 
@@ -64,10 +64,12 @@
 
 
     </main>
-<footer class="ending">
-    <p>&copy;<span id="currentyear"></span> Tad Johnson | Tennessee </p>
-    <p class="small-font"><span id="LastModified"> </span></p>
-</footer>
+    <footer class="ending">
+        <div class="one-line">
+            <span>&copy;</span><span id="currentyear"></span></div>
+            <p>Tad Johnson | Tennessee </p>
+            <p class="small-font"><span id="LastModified"> </span></p> 
+    </footer>
 </body>
 
 </html>
