@@ -1,0 +1,253 @@
+/* 
+.grid {
+    position: relative; 
+    max-width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr;
+
+} 
+
+
+.card {
+    position: absolute;
+    bottom: 65%;
+    right: 0px;
+    width: 30%;
+    padding: 16px;
+    text-align: center;
+   
+    padding: 20px;
+    border: solid 5px var(--accent3-color);
+} */
+
+
+
+
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+/* set up the inserts in the pic on large view, medium   small they fall under neath */
+.card {
+
+    right: 0px;
+    width: 30%;
+    padding: 16px;
+    text-align: center;
+
+    padding: 20px;
+    border: solid 5px var(--accent3-color);
+}
+
+.card1 {
+
+    padding: 20px;
+    border: solid 5px var(--accent3-color);
+}
+
+.card img {
+    margin: .5em;
+}
+
+
+header {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1.5em;
+    font-size: 3em;
+    font-weight: 700;
+    background-color: var(--accent3-color);
+    padding: 10px;
+    border-bottom: solid .5em;
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    padding: .5em;
+}
+
+.hero h2 {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent3-color);
+    color: var(--secondary-color);
+}
+
+/* .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+} */
+
+.hero5 {
+    /* article */
+    float: right;
+    width: 1fr;
+}
+
+.hero-article {
+    position: absolute;
+    top: 35rem;
+    width: 100%;
+    float: right;
+    background: var(--accent3-color);
+}
+
+.hero-article-p {
+    padding: 2rem;
+    left: 0px;
+    right: 0px;
+    color: var(--accent1-color);
+    font-weight: 600;
+    font-size: 1rem;
+    position: relative;
+}
+
+
+
+}
+
+
+
+footer {
+    max-width: 100%;
+    display: block;
+    background-color: var(--accent2-color);
+    font-weight: 700;
+    padding: 0px 0px 10px 20px;
+    border-top: solid .5em;
+    text-align: center;
+}
+
+
+
+
+/* 
+h1 {
+    display: flex;
+    justify-content: space-around;
+    padding: .5em;
+}
+
+
+h2 {
+    display: block;
+    text-align: center;
+    background-color: rgba(240, 98, 98, 0.836);
+    margin-bottom: 1rem;
+
+}
+
+header {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 2em 2.5em;
+        font-size: x-large;
+    font-weight: 700;
+    background-color: rgba(240, 98, 98, 0.836);
+    padding: 10px;
+    border-bottom: solid .5em; 
+}
+
+nav {
+    font-size: medium;
+    min-width: 800px; 
+    margin: 0 auto;
+    background-color: #e4e4e4;
+    font-weight: 700;   
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    flex: 1 1 100%;
+
+}
+
+li a {
+    box-shadow: inset 0 0 0 0 var(--accent1-color);
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    border-radius: 5rem;
+
+}
+
+li a:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    box-shadow: inset 380px 0 0 50px #54b3d681;
+    color: rgb(5, 5, 5);
+
+}
+
+main {
+    max-width: 1200px;
+}
+
+h2 {
+    background-color: #e4e4e4;
+    padding-block: 1em;
+}
+
+button {
+    margin: .5rem;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    font-weight: 700;
+    border: 1px solid var(--accent1-color);
+    border-radius: 5rem;
+    padding: .2rem;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    font-weight: 700;
+
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 20px;
+    clear: both;
+}
+
+footer {
+
+    padding: .5em;
+    margin: 2em;
+
+}
+
+.lastmodified {
+    margin: 0;
+    float: right;
+
+}
+*/
