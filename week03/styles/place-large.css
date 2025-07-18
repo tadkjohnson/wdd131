@@ -71,10 +71,10 @@
 
     .card2 {
         position: absolute;
-        bottom: 0%;
+        top: 85%;
         left: 10px;
-        width: 25%;
-        
+        width: 30%;
+
         /* align-items: center; */
         /* padding: 10px; */
         /* text-align: center; */
@@ -92,14 +92,16 @@
 
     .overlay2 {
         position: absolute;
-        bottom: 20%;
-        text-align: start;
+        top: 10%;
+        width: 70%;
         list-style-type: none;
+        margin-left: 8em;
     }
 
     .big-font {
         font-size: 2em;
     }
+
     .weather-font {
         font-size: 1.5em;
         font-weight: 700;
