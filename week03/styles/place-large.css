@@ -44,7 +44,6 @@
         top: 85%;
         right: 10px;
         width: 35%;
-
         border: solid 5px var(--accent1-color);
 
     }
@@ -54,7 +53,7 @@
         width: 100%;
         height: auto;
         display: block;
-        opacity: 0.2;
+        
     }
 
     .overlay2 {
@@ -65,8 +64,6 @@
         font-weight: 700;
         font-size: large;
     }
-
-
 
     .big-font {
         font-size: 2em;
@@ -85,12 +82,11 @@
         max-width: 64px;
 
     }
-
-
+/* 
     .weather-heading::before {
         content: "";
         display: none;
-        /* hidden by default */
+        hidden by default 
     }
 
     .weather-heading::after {
@@ -103,7 +99,8 @@
         background-repeat: no-repeat;
         background-position: center;
         margin-left: 10px;
-        /* space between text and icon */
+        space between text and icon 
         vertical-align: middle;
 
-    }
+    } */
+}
