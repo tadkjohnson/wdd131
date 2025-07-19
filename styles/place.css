@@ -24,27 +24,27 @@
         
          
      } */
- /* .card img {
+     /* .card img {
         position: relative;
         width: 100%;
 
     }  */
 
-    .overlay {
-        position: absolute;
-        top: 5em;
-        text-align: left;
-        left: -3em;
-        width: 300px;
-        font-size: medium;
-        font-weight: 700;
-        list-style-type: none;
-        margin-left: 6em;
+     .overlay {
+         position: absolute;
+         top: 5em;
+         text-align: left;
+         left: -3em;
+         width: 300px;
+         font-size: medium;
+         font-weight: 700;
+         list-style-type: none;
+         margin-left: 6em;
 
-    }
+     }
 
      .card2 {
-        position: relative;
+         position: relative;
          right: 0px;
          max-width: 95%;
          margin-top: 5px;
@@ -56,18 +56,18 @@
 
 
      .overlay2 {
-        position: absolute;
-        top: 5em;
-        text-align: left;
-        left: -3em;
-        width: 300px;
-        font-size: medium;
-        font-weight: 700;
-        list-style-type: none;
-        margin-left: 6em;
+         position: absolute;
+         top: 5em;
+         text-align: left;
+         left: -3em;
+         width: 300px;
+         font-size: medium;
+         font-weight: 700;
+         list-style-type: none;
+         margin-left: 6em;
      }
 
-    
+
 
      h1 {
          display: flex;
@@ -87,11 +87,11 @@
          color: var(--accent1-color);
      }
 
-    .icon-sm {
+     .icon-sm {
          display: inline;
          width: 48px;
 
-     } 
+     }
 
  }
 
@@ -129,7 +129,7 @@
      /* position: sticky; */
      text-align: center;
      width: 100%;
-     
+
  }
 
  header {
@@ -171,9 +171,8 @@
      font-size: 70%;
  }
 
-/* .icon-sm {
+ /* .icon-sm {
     display: inline;
     width: 3em;
 
  } */
-
