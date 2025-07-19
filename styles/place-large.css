@@ -86,14 +86,17 @@
         z-index: 2;
     }
 
-    .icon-sm {
+    /* .icon-sm {
         /* max-width: 64px; */
+        /* position: absolute;
+        top: 1.5em;
+        right: 6em; 
+    } */
+
+    .icon-sm::after {
         position: absolute;
         top: 1.5em;
         right: 6em;
-    }
-
-    .weather-font::after {
         content: "";
         display: inline-block;
         width: 32px;
