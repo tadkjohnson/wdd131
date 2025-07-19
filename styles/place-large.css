@@ -77,6 +77,11 @@
         font-weight: 700;
         padding-bottom: 1px;
     }
+    .icon-sm {
+         display: inline;
+         width: 64px;
+
+     }
 
 
     /* 
