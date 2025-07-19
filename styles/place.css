@@ -97,7 +97,7 @@
 
  :root {
      --accent1-color: #1826a5;
-     --accent2-color: rgb(255, 215, 0);
+     --accent2-color: #ffd700;
      --accent3-color: rgb(255, 215, 0, 0.5);
      --heading-font: ".lato-bold", sans-serif;
      --body-font: ".roboto", sans-serif;
