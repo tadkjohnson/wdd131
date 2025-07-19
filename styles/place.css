@@ -15,12 +15,33 @@
          text-align: center;
      }
 
-     .card ul {
-         margin-left: -2em;
+     /* .card ul {
+         margin-left: 2em;
          list-style-type: none;
          display: block;
          text-align: start;
-     }
+         align-content: start;
+        
+         
+     } */
+ /* .card img {
+        position: relative;
+        width: 100%;
+
+    }  */
+
+    .overlay {
+        position: absolute;
+        top: 5em;
+        text-align: left;
+        left: -3em;
+        width: 300px;
+        font-size: medium;
+
+        list-style-type: none;
+        margin-left: 6em;
+
+    }
 
      .card2 {
          right: 0px;
@@ -37,11 +58,12 @@
          list-style-type: none;
          display: block;
          text-align: start;
+         list-style-type: none;
      }
 
-     .card img {
+     /* .card img {
          margin: .2em;
-     }
+     } */
 
      h1 {
          display: flex;
