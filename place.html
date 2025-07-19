@@ -20,7 +20,7 @@
     <main>
 
         <div>
-            <picture class="hero img">
+            <picture class="hero-img">
                 <source media="(min-width:1000px)" srcset="images/mountain-2500.webp" width="2500">
                 <!-- need to crop down the mountain pic to remove some sky and shorten it -->
                 <!-- <source media="(min-width:500px)" srcset="images/alaska-med.jpg"> -->
@@ -36,7 +36,7 @@
             <img src="images/glacier.webp" alt="this is a picture of a glacier at the coastline" width="200">
             <ul class="overlay">
                 <li>Tourism accounts for 48,000 jobs </li>
-                <li>Cruises contribute over $157, million to the economy</li>
+                <li>Cruises contribute over $157 million to the economy</li>
                 <li>586,412 sq. miles of land</li>
                 <li>Containing over 100,000 glaciers</li>
                 <li>6,640 miles of coast</li>
@@ -46,27 +46,23 @@
         </section>
         <section class="card2">
             <h3 class="weather-font">Weather</h3>
-            <img class="icon-sm" src="images/weather-icon.svg" alt="icon of weather conditions">
-            <img src="images/alaska-sunset.jpg" alt="this is a picture of a sunset while traversing the inner passaga"
+            <picture class="icon-sm">
+                <img src="images/weather-icon.svg" alt="icon of weather conditions" width="64">
+            </picture>
+            <img src="images/alaska-sunset.jpg" alt="this is a picture of a sunset while traversing the inner passage"
                 width="200">
             <ul class="overlay2">
                 <li>Average Temps 45-70 &deg;F </li>
                 <li>Average rainfall 200 inches annually</li>
-                <li>Hotest temp on record 100 &deg;F</li>
+                <li>Hottest temp on record 100 &deg;F</li>
                 <li>Coldest temp on record -80 &deg;F </li>
                 <li>Temperature:<span id="temperature">65</span></li>
                 <li>Wind Speed: <span id="windspeed">5</span></li>
-                <li>Wind Chill: <span id="windchill"> </span> </li>
+                <li>Wind Chill: <span id="windchill"></span></li>
 
 
             </ul>
         </section>
-
-
-
-
-
-
 
     </main>
     <footer>
@@ -79,5 +75,3 @@
 </body>
 
 </html>
-
-
