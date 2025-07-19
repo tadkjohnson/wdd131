@@ -1,4 +1,4 @@
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1000px) {
 
     .title-h2 {
         position: absolute;
@@ -11,13 +11,11 @@
         font-size: 2.25em;
     }
 
-
     .card {
         position: absolute;
         box-sizing: border-box;
-        top: 25%;
-        left: 3%;
-        width: 35%;
+        top: 15em;
+        width: 400px;
         border: solid 5px var(--accent1-color);
     }
 
@@ -29,20 +27,23 @@
 
     .overlay {
         position: absolute;
-        top: 10%;
-        width: 70%;
-        font-size: large;
+        top: 5em;
+        text-align: left;
+        left: -3em;
+        width: 300px;
+        font-size: medium;
 
         list-style-type: none;
-        margin-left: 8em;
+        margin-left: 6em;
 
     }
 
-
+    /* card2 lower right */
     .card2 {
         position: absolute;
-        top: 85%;
-        right: 10px;
+        top: 40em;
+        right: 1em;
+        /* bottom: .5em; */
         width: 35%;
         border: solid 5px var(--accent1-color);
 
@@ -53,7 +54,7 @@
         width: 100%;
         height: auto;
         display: block;
-        
+
     }
 
     .overlay2 {
@@ -77,12 +78,8 @@
         padding-bottom: 1px;
     }
 
-    .icon-sm {
-        display: inline;
-        max-width: 64px;
 
-    }
-/* 
+    /* 
     .weather-heading::before {
         content: "";
         display: none;

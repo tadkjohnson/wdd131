@@ -1,4 +1,4 @@
- @media screen and (max-width: 500px) {
+ @media screen and (max-width: 800px) {
 
     * {
         max-width: 499px;
@@ -6,10 +6,7 @@
         width: 100%;
     }
 
-    .hero img {
-        max-width: 100%;
-        margin: 0px;
-    }
+   
     .card {
         position: relative;
         max-width: 95%;
@@ -109,6 +106,14 @@ header {
     padding: 5px;
     border-bottom: solid .5em;
 }
+
+.hero img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    margin: 0px;
+}
+
 footer {
     margin-top: 5px;
     margin: 0;
@@ -127,8 +132,10 @@ footer {
     font-size: 70%;
 }
 
-
-
+.icon-sm {
+    display: inline;
+    max-width: 32px;
+}
      /* work on this  dont forget to add and try background-size:contain on cards */
 
 
