@@ -87,9 +87,9 @@
          color: var(--accent1-color);
      }
 
-     .icon-sm {
+     .sm-icon-sm {
          display: inline;
-         width: 48px;
+         width: 24px;
 
      }
 
@@ -176,3 +176,13 @@
     width: 3em;
 
  } */
+
+.mobile-only {
+    display: none;
+}
+@media (max-width: 800px) {
+    .mobile-only {
+         display: inline;
+
+    }
+}
