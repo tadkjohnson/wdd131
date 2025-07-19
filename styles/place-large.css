@@ -19,7 +19,7 @@
         border: solid 5px var(--accent1-color);
     }
 
-  
+
 
     .overlay {
         position: absolute;
@@ -38,7 +38,7 @@
     .card2 {
         position: absolute;
         top: 35em;
-        right: 1em;       
+        right: 1em;
         width: 35%;
         border: solid 5px var(--accent1-color);
 
@@ -46,17 +46,18 @@
 
     .card2 img {
         position: relative;
-        margin-top: -30px;
-        width: 100%;   
+        margin-top: -20px;
+        width: 100%;
         z-index: 0;
     }
-    
-  .card img {
+
+    .card img {
         position: relative;
         width: 100%;
         margin-top: -120px;
 
     }
+
     .overlay2 {
         position: absolute;
         top: 5em;
@@ -67,7 +68,7 @@
         list-style-type: none;
         margin-left: 6em;
         z-index: 2;
-       
+
     }
 
     .big-font {
@@ -84,12 +85,15 @@
         text-align: center;
         z-index: 2;
     }
-   .icon-sm {
-    max-width: 32px;
-    position: absolute;
-    
 
- }
+    .icon-sm {
+        max-width: 64px;
+        position: absolute;
+        top: 2em;
+        right: 1em;
 
-   
+
+    }
+
+
 }

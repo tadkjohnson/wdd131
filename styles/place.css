@@ -126,8 +126,10 @@
 
  .title-span {
      display: block;
-     position: sticky;
+     /* position: sticky; */
      text-align: center;
+     width: 100%;
+     
  }
 
  header {
