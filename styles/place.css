@@ -87,11 +87,11 @@
          color: var(--accent1-color);
      }
 
-     .icon-sm {
+    .icon-sm {
          display: inline;
-         width: 32px;
+         width: 48px;
 
-     }
+     } 
 
  }
 
@@ -171,8 +171,9 @@
      font-size: 70%;
  }
 
- .icon-sm {
-     display: inline;
-     max-width: 32px;
- }
+/* .icon-sm {
+    display: inline;
+    width: 3em;
+
+ } */
 
