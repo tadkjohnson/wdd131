@@ -1,0 +1,103 @@
+@media screen and (min-width: 1000px) {
+
+    .title-h2 {
+        position: absolute;
+        box-sizing: border-box;
+        top: 120px;
+        width: 100%;
+        padding: 16px;
+        text-align: center;
+        background-color: var(--accent2-color);
+        font-size: 2.25em;
+    }
+
+    .card {
+        position: absolute;
+        box-sizing: border-box;
+        top: 15em;
+        width: 400px;
+        border: solid 5px var(--accent1-color);
+    }
+
+    .card img {
+        position: relative;
+        width: 100%;
+
+    }
+
+    .overlay {
+        position: absolute;
+        top: 5em;
+        text-align: left;
+        left: -3em;
+        width: 300px;
+        font-size: medium;
+
+        list-style-type: none;
+        margin-left: 6em;
+
+    }
+
+    /* card2 lower right */
+    .card2 {
+        position: absolute;
+        top: 40em;
+        right: 1em;
+        /* bottom: .5em; */
+        width: 35%;
+        border: solid 5px var(--accent1-color);
+
+    }
+
+    .card2 img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+
+    .overlay2 {
+        position: absolute;
+        top: 5px;
+        text-align: start;
+        list-style-type: none;
+        font-weight: 700;
+        font-size: large;
+    }
+
+    .big-font {
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .weather-font {
+        font-size: 2em;
+        font-weight: 700;
+        padding-bottom: 1px;
+    }
+
+
+    /* 
+    .weather-heading::before {
+        content: "";
+        display: none;
+        hidden by default 
+    }
+
+    .weather-heading::after {
+        content: "";
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        background-image: "images/weather-icon.svg";
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 10px;
+        space between text and icon 
+        vertical-align: middle;
+
+    } */
+}

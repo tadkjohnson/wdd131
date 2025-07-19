@@ -1,0 +1,151 @@
+ @media screen and (max-width: 800px) {
+
+     * {
+         max-width: 499px;
+         margin: 0 auto;
+         width: 100%;
+     }
+
+
+     .card {
+         position: relative;
+         max-width: 95%;
+         padding: 5px;
+         border: solid 5px var(--accent1-color);
+         text-align: center;
+     }
+
+     .card ul {
+         margin-left: -2em;
+         list-style-type: none;
+         display: block;
+         text-align: start;
+     }
+
+     .card2 {
+         right: 0px;
+         max-width: 95%;
+         margin-top: 5px;
+         margin-bottom: 5px;
+         padding: 5px;
+         border: solid 5px var(--accent1-color);
+         text-align: center;
+     }
+
+     .overlay2 {
+         margin-left: -2em;
+         list-style-type: none;
+         display: block;
+         text-align: start;
+     }
+
+     .card img {
+         margin: .2em;
+     }
+
+     h1 {
+         display: flex;
+         justify-content: space-around;
+         padding: .5em;
+     }
+
+     .title-h2 {
+         position: absolute;
+         box-sizing: border-box;
+         top: 120px;
+         left: 21px;
+         width: 100%;
+         padding: 16px;
+         text-align: center;
+         background-color: var(--accent3-color-transpart);
+         color: var(--accent1-color);
+     }
+
+     .icon-sm {
+         display: inline;
+         width: 32px;
+
+     }
+
+ }
+
+ :root {
+     --accent1-color: #1826a5;
+     --accent2-color: rgb(255, 215, 0);
+     --accent3-color: rgb(255, 215, 0, 0.5);
+     --heading-font: ".lato-bold", sans-serif;
+     --body-font: ".roboto", sans-serif;
+     margin: 1.5em;
+     width: 100%;
+ }
+
+ .roboto {
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-variation-settings:
+         "wdth" 100;
+ }
+
+ .lato-regular {
+     font-family: "Lato", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .lato-bold {
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+ }
+
+ .title-span {
+     display: block;
+     position: sticky;
+     text-align: center;
+ }
+
+ header {
+     margin: 0;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: auto auto;
+     font-size: 3em;
+     font-weight: 700;
+     background-color: var(--accent2-color);
+     padding: 5px;
+     border-bottom: solid .5em;
+ }
+
+ .hero img {
+     display: block;
+     position: relative;
+     max-width: 100%;
+     margin: 0px;
+ }
+
+ footer {
+     margin-top: 5px;
+     margin: 0;
+     display: grid;
+     font-size: x-large;
+     font-weight: 700;
+     background-color: var(--accent2-color);
+     padding: 10px;
+     border-top: solid .5em;
+     text-align: center;
+ }
+
+ .one-line {
+     display: inline-block;
+ }
+
+ .small-font {
+     font-size: 70%;
+ }
+
+ .icon-sm {
+     display: inline;
+     max-width: 32px;
+ }
+
+ /* work on this  dont forget to add and try background-size:contain on cards */
