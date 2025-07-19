@@ -91,26 +91,5 @@
 
      }
 
-
-    /* 
-    .weather-heading::before {
-        content: "";
-        display: none;
-        hidden by default 
-    }
-
-    .weather-heading::after {
-        content: "";
-        display: inline-block;
-        width: 64px;
-        height: 64px;
-        background-image: "images/weather-icon.svg";
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-left: 10px;
-        space between text and icon 
-        vertical-align: middle;
-
-    } */
+   
 }
