@@ -37,13 +37,14 @@
         left: -3em;
         width: 300px;
         font-size: medium;
-
+        font-weight: 700;
         list-style-type: none;
         margin-left: 6em;
 
     }
 
      .card2 {
+        position: relative;
          right: 0px;
          max-width: 95%;
          margin-top: 5px;
@@ -53,17 +54,20 @@
          text-align: center;
      }
 
+
      .overlay2 {
-         margin-left: -2em;
-         list-style-type: none;
-         display: block;
-         text-align: start;
-         list-style-type: none;
+        position: absolute;
+        top: 5em;
+        text-align: left;
+        left: -3em;
+        width: 300px;
+        font-size: medium;
+        font-weight: 700;
+        list-style-type: none;
+        margin-left: 6em;
      }
 
-     /* .card img {
-         margin: .2em;
-     } */
+    
 
      h1 {
          display: flex;
