@@ -83,7 +83,6 @@ const temples = [
             "https://churchofjesuschristtemples.org/assets/img/temples/fort-lauderdale-florida-temple/fort-lauderdale-florida-temple-11108.jpg"
     },
 
-
     {
         templeName: "Atlanta Georgia",
         location: "Sandy Springs, Georgia",
@@ -126,9 +125,9 @@ const oldlink = document.querySelector("#old");
 const newlink = document.querySelector("#new");
 const largelink = document.querySelector("#large");
 const smalllink = document.querySelector("#small");
-const img = document.querySelector("img");
-img.style.width = 400px":
-img.style.height =250px":
+const img = document.querySelector("img") 
+    ;
+    
 
 // events 
 smalllink.addEventListener("click", () => {
@@ -164,9 +163,9 @@ function createTempleCard(filteredTemples) {
         let img = document.createElement("img");
 
         name.textContent = temple.templeName;
-        location.innerHTML = `<span class="label">location:</span> ${temple.location}`;
-        dedication.innerHTML = `<span class="label">dedicated:</span> ${temple.dedicated}`;
-        area.innerHTML = `<span class="label">area:</span> ${temple.area}`;
+        location.innerHTML = `<span class="label">Location:</span> ${temple.location}`;
+        dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple.dedicated}`;
+        area.innerHTML = `<span class="label">Area:</span> ${temple.area}`;
         img.setAttribute("src", temple.imageUrl);
         img.setAttribute("alt", `${temple.templeName} Temple`);
         img.setAttribute("loading", "lazy");
@@ -181,7 +180,6 @@ function createTempleCard(filteredTemples) {
 
     })
 }
-
 
 
 

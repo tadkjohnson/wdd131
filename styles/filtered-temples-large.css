@@ -9,9 +9,20 @@
     .grid1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
+        /* grid-auto-rows: 400x;  */
+        grid-gap: 10px;
+
     }
 
+     section {
+        padding: 1rem;
+        background-color: hsl(0, 5%, 85%);
+        align-self: top;
+        border-radius: 5px;
+        border: 1px;
+        border: black solid;
+    }
+    
     .navigation {
         display: flex;
     }
@@ -23,34 +34,43 @@
 
     .navigation button {
         text-align: center;
-        transition: 0.5s;
+        border-style: none;
     }
-}
 
-nav {
-    display: block;
-    margin: 0 auto;
-    max-width: 800px;
-}
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
 
-}
 
-button:before {
-    display: block;
-    text-align: center;
-    padding: .5rem;
-    text-decoration: none;
-}
+    nav {
+        display: block;
+        margin: 0 auto;
+        max-width: 800px;
+    }
 
-button:hover {
-    border: 3px;
-    transition-delay: 5ms;
-    border-radius: .5rem;
-    border-style: double;
-    padding: .25rem;
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    button:before {
+        display: block;
+        text-align: center;
+        padding: .5rem;
+        text-decoration: none;
+        border-style: none;
+        border-color: rgba(219, 217, 217, 0.452);
+    }
+
+    button:hover {
+        border: 3px;
+        border-radius: .5rem;
+        border-style: double;
+        padding: .25rem;
+    }
 }
