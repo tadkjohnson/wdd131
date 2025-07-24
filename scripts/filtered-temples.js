@@ -139,19 +139,22 @@ smalllink.addEventListener("click", () => {
     createTempleCard(filteredTemples);
 })
 oldlink.addEventListener("click", () => {
-         const filteredTemples = temples.filter(temple => temple.dedicated.before("1900"));
+    const filteredTemples = temples.filter(temple => temple.dedicated < 1900);
+    createTempleCard(filteredTemples);
 })
 newlink.addEventListener("click", () => {
-    const filteredTemples = temples.filter(temple => temple.dedicated.after("1900"));
+    const filteredTemples = temples.filter(temple => temple.dedicated > 1900);
+    createTempleCard(filteredTemples);
 })
 largelink.addEventListener("click", () => {
-    const filteredTemples = temples.filter(temple => temple.area > ("90000"));
+    const filteredTemples = temples.filter(temple => temple.area > 90000);
+    createTempleCard(filteredTemples);
 })
 
       
-createTempleCard();
+createTempleCard(filteredTemples);
 
-function_createTempleCard(filteredTemples) {
+function createTempleCard(filteredTemples) {
     document.querySelector(".grid1").innerHTML = "";
     filteredTemples.forEach(temple => {
         let card = document.createElement("section");
@@ -161,12 +164,12 @@ function_createTempleCard(filteredTemples) {
         let area = document.createElement("p");
         let img = document.createElement("img");
 
-        name.textcontent = temple.templeName;
-        location.innerHTML = '<span class="label">Location:</span> ${temple.location}';
-        dedication.innerHTML = '<span class="label">Dedicated:</span> ${temple.dedicated}';
-        area.innerHTML = '<span class="label">area:</span> ${temple.dedicated}';
+        name.textContent = temple.templeName;
+        location.innerHTML = `<span class="label">location:</span> ${temple.location}`;
+        dedication.innerHTML = `<span class="label">dedicated:</span> ${temple.dedicated}`;
+        area.innerHTML = `<span class="label">area:</span> ${temple.area}`;
         img.setAttribute("src", temple.imageUrl);
-        img.setAttribute("alt", '${temple.templeName} Temple');
+        img.setAttribute("alt", `${temple.templeName} Temple`);
         img.setAttribute("loading", "lazy");
 
         card.appendChild(name);
@@ -175,7 +178,7 @@ function_createTempleCard(filteredTemples) {
         card.appendChild(area);
         card.appendChild(img);
 
-        document.querySelector(".grid1").appendChild(card);)
+        document.querySelector(".grid1").appendChild(card);
 
 })
 }

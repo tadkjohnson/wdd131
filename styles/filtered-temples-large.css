@@ -46,7 +46,7 @@
         /* transition: 0.5s;         */
     }
 
-    navigation a:hover,
+    .navigation a:hover,
     navigation a:active {
         color: green;
     }
@@ -75,12 +75,13 @@
     }
 
 }
+
 h2 {
-     display: block;
-     text-align: center;
-     border-bottom: 1px solid;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid;
 }
-    
+
 
 header {
     max-width: 100%;
