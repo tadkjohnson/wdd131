@@ -1,15 +1,22 @@
+// date of build
 document.getElementById('currentyear').textContent = new Date().getFullYear();
-
+// date of change
 document.getElementById(`LastModified`).textContent = `Last Modified: ${document.lastModified}`;
 
+// navigation stuff with hamburger
 const navigation = document.querySelector('.navigation');
 const hambutton = document.querySelector('#menu');
 
+// hamburger button
 hambutton.addEventListener('click', () => {
     navigation.classList.toggle('show');
     hambutton.classList.toggle('show');
 });
 
+
+
+
+// list of temples
 const temples = [
     {
         templeName: "Aba Nigeria",
@@ -71,7 +78,7 @@ const temples = [
         templeName: "Fort Lauderdale Florida",
         location: "Davie, Florida",
         dedicated: "2014, May 4",
-        area: 30, 500,
+        area: 30500,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/fort-lauderdale-florida-temple/fort-lauderdale-florida-temple-11108.jpg"
     },
@@ -84,9 +91,7 @@ const temples = [
         area: 34, 500,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/atlanta-georgia-temple/atlanta-georgia-temple-3859.jpg"
-
     },
-
 
     {
         templeName: "Monticello Utah",
@@ -101,7 +106,7 @@ const temples = [
         templeName: "Bangkok Thailand",
         location: "Ratchathewi, Bangkok",
         dedicated: "2023, October 22",
-        area: 48, 525,
+        area: 48525,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/bangkok-thailand-temple/bangkok-thailand-temple-40037.jpg"
     },
@@ -110,32 +115,21 @@ const temples = [
         templeName: "Bern Switzerland",
         location: "Zollikofen, Switzerland",
         dedicated: "1992, October 25",
-        area: 35, 546,
+        area: 35546,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/bern-switzerland-temple/bern-switzerland-temple-50470.jpg"
     },
 
 ];
 
-const oldlink = document.querySelector("#old");
-const newlink = document.querySelector("#new");
-const largelink = document.querySelector("#large");
-const smalllink = document.querySelector("#small");
+const oldlink = document.querySelector("old");
+const newlink = document.querySelector("new");
+const largelink = document.querySelector("large");
+const smalllink = document.querySelector("small");
 
-// oldlink.addEventListener("click", () => {
-//     createTempleCard(temples.filter(temple => temple.dedicated.before("1900")));
-// })
-// newlink.addEventListener("click", () => {
-//     createTempleCard(temples.filter(temple => temple.dedicated.after("2000")));
-// })
-// largelink.addEventListener("click", () => {
-//     createTempleCard(temples.filter(temple => temple.area > ("90000")));
-// })
-// smalllink.addEventListener("click", () => {
-//     createTempleCard(temples.filter(temple => temple.area < ("10000")));
-// })
+// events 
 smalllink.addEventListener("click", () => {
-     const filteredTemples = temples.filter(temple => temple.area < 10000);
+    const filteredTemples = temples.filter(temple => temple.area < 10000);
     createTempleCard(filteredTemples);
 })
 oldlink.addEventListener("click", () => {
@@ -151,8 +145,10 @@ largelink.addEventListener("click", () => {
     createTempleCard(filteredTemples);
 })
 
-      
-createTempleCard(filteredTemples);
+//   temple cards created
+createTempleCard(temples);
+// createTempleCard(filteredTemples);
+
 
 function createTempleCard(filteredTemples) {
     document.querySelector(".grid1").innerHTML = "";
@@ -180,7 +176,7 @@ function createTempleCard(filteredTemples) {
 
         document.querySelector(".grid1").appendChild(card);
 
-})
+    })
 }
 
 
