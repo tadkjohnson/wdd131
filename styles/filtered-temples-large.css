@@ -14,7 +14,7 @@
 
     }
 
-     section {
+    section {
         padding: 1rem;
         background-color: hsl(0, 5%, 85%);
         align-self: top;
@@ -22,7 +22,7 @@
         border: 1px;
         border: black solid;
     }
-    
+
     .navigation {
         display: flex;
     }
