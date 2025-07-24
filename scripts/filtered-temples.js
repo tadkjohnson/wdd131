@@ -148,13 +148,8 @@ largelink.addEventListener("click", () => {
     const filteredTemples = temples.filter(temple => temple.area > ("90000"));
 })
 
-     
-     
-
-
-
-
-createTempleCard(temples);
+      
+createTempleCard();
 
 function_createTempleCard(filteredTemples) {
     document.querySelector(".grid1").innerHTML = "";
