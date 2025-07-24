@@ -122,18 +122,35 @@ const newlink = document.querySelector("#new");
 const largelink = document.querySelector("#large");
 const smalllink = document.querySelector("#small");
 
-oldlink.addEventListener("click, () => {
-    createTempleCard(temples.filtered(temple => !temple.dedicated.includes("20")));
+// oldlink.addEventListener("click", () => {
+//     createTempleCard(temples.filter(temple => temple.dedicated.before("1900")));
+// })
+// newlink.addEventListener("click", () => {
+//     createTempleCard(temples.filter(temple => temple.dedicated.after("2000")));
+// })
+// largelink.addEventListener("click", () => {
+//     createTempleCard(temples.filter(temple => temple.area > ("90000")));
+// })
+// smalllink.addEventListener("click", () => {
+//     createTempleCard(temples.filter(temple => temple.area < ("10000")));
+// })
+smalllink.addEventListener("click", () => {
+     const filteredTemples = temples.filter(temple => temple.area < 10000);
+    createTempleCard(filteredTemples);
 })
-newlink.addEventListener("click, () => {
-    createTempleCard(temples.filtered(temple => temple.dedicated.includes("20")));
+oldlink.addEventListener("click", () => {
+         const filteredTemples = temples.filter(temple => temple.dedicated.before("1900"));
 })
-largelink.addEventListener("click, () => {
-    createTempleCard(temples.filtered(temple => temple.area.> ("50000")));
+newlink.addEventListener("click", () => {
+    const filteredTemples = temples.filter(temple => temple.dedicated.after("1900"));
 })
-smalllink.addEventListener("click, () => {
-    createTempleCard(temples.filtered(temple => temple.area.=< ("50000")));
+largelink.addEventListener("click", () => {
+    const filteredTemples = temples.filter(temple => temple.area > ("90000"));
 })
+
+     
+     
+
 
 
 
