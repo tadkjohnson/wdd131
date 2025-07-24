@@ -28,7 +28,7 @@
         margin: 0 auto;
         max-width: 640px;
         display: flex;
-        align-items: end;
+        align-items: flex-end;
         flex-direction: column;
     }
 
@@ -46,8 +46,8 @@
         /* transition: 0.5s;         */
     }
 
-    navigation a:hover,
-    navigation a:active {
+    .navigation a:hover,
+    .navigation a:active {
         color: green;
     }
 
