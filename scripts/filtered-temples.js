@@ -88,7 +88,7 @@ const temples = [
         templeName: "Atlanta Georgia",
         location: "Sandy Springs, Georgia",
         dedicated: "1983, June 4",
-        area: 34, 500,
+        area: 34500,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/atlanta-georgia-temple/atlanta-georgia-temple-3859.jpg"
     },
@@ -97,7 +97,7 @@ const temples = [
         templeName: "Monticello Utah",
         location: "Monticello, Utah",
         dedicated: "1998, July 27",
-        area: 11, 225,
+        area: 11225,
         imageUrl:
             "https://churchofjesuschristtemples.org/assets/img/temples/monticello-utah-temple/monticello-utah-temple-53337.jpg"
     },
@@ -122,10 +122,10 @@ const temples = [
 
 ];
 
-const oldlink = document.querySelector("old");
-const newlink = document.querySelector("new");
-const largelink = document.querySelector("large");
-const smalllink = document.querySelector("small");
+const oldlink = document.querySelector("#old");
+const newlink = document.querySelector("#new");
+const largelink = document.querySelector("#large");
+const smalllink = document.querySelector("#small");
 
 // events 
 smalllink.addEventListener("click", () => {
@@ -133,11 +133,11 @@ smalllink.addEventListener("click", () => {
     createTempleCard(filteredTemples);
 })
 oldlink.addEventListener("click", () => {
-    const filteredTemples = temples.filter(temple => temple.dedicated < 1900);
+    const filteredTemples = temples.filter(temple => { const year = parseInt(temple.dedicated); return year < 1900 });
     createTempleCard(filteredTemples);
 })
 newlink.addEventListener("click", () => {
-    const filteredTemples = temples.filter(temple => temple.dedicated > 1900);
+    const filteredTemples = temples.filter(temple => { const year = parseInt(temple.dedicated); return year > 1900 });
     createTempleCard(filteredTemples);
 })
 largelink.addEventListener("click", () => {

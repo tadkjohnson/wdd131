@@ -1,10 +1,9 @@
-
 @media screen and (min-width: 800px) {
 
     main {
         margin: 2em auto;
         max-width: 800px;
-        
+
     }
 
     .grid1 {
@@ -22,9 +21,9 @@
         flex: 1 1 100%;
     }
 
-    .navigation a {
+    .navigation button {
         text-align: center;
-        transition: 0.5s;         
+        transition: 0.5s;
     }
 }
 
@@ -41,16 +40,17 @@ nav ul {
 
 }
 
-nav a {
+button:before {
     display: block;
     text-align: center;
     padding: .5rem;
     text-decoration: none;
 }
 
-nav a:hover {
+button:hover {
     border: 3px;
+    transition-delay: 5ms;
     border-radius: .5rem;
     border-style: double;
     padding: .25rem;
-} 
+}
