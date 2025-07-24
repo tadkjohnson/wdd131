@@ -126,6 +126,9 @@ const oldlink = document.querySelector("#old");
 const newlink = document.querySelector("#new");
 const largelink = document.querySelector("#large");
 const smalllink = document.querySelector("#small");
+const img = document.querySelector("img");
+img.style.width = 400px":
+img.style.height =250px":
 
 // events 
 smalllink.addEventListener("click", () => {
