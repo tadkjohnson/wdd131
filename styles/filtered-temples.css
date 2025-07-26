@@ -118,7 +118,9 @@ h2 {
     border-bottom: 1px solid;
 }
 
-* {}
+body {
+    align-items: center;
+}
 
 header {
     max-width: 100%;
