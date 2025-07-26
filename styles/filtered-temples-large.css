@@ -32,7 +32,7 @@
         flex: 1 1 100%;
     }
 
-    .navigation button {
+    .navigation button, .navigation a {
         text-align: center;
         border-style: none;
     }
@@ -64,6 +64,7 @@
         padding: .5rem;
         text-decoration: none;
         border-style: none;
+        border: 5px;
         border-color: rgba(219, 217, 217, 0.452);
     }
 
@@ -73,4 +74,21 @@
         border-style: double;
         padding: .25rem;
     }
+
+   a:before {
+        display: block;
+        text-align: center;
+        padding: .5rem;
+        text-decoration: none;
+        border-style: none;
+        border-color: rgba(219, 217, 217, 0.452);
+    }
+
+    a:hover {
+        border: 3px;
+        border-radius: .5rem;
+        border-style: double;
+        padding: .25rem;
+    }
+
 }
