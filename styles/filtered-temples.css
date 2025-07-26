@@ -119,8 +119,8 @@ h2 {
 }
 
 .centered {
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
