@@ -18,7 +18,7 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
-        grid-auto-rows: 400x;
+        grid-auto-rows: 400px;
         grid-gap: 20px;
 
     }
