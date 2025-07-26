@@ -121,6 +121,7 @@ const temples = [
 
 ];
 
+const homelink = document.querySelector("#home");
 const oldlink = document.querySelector("#old");
 const newlink = document.querySelector("#new");
 const largelink = document.querySelector("#large");
@@ -130,6 +131,10 @@ const img = document.querySelector("img")
 
 
 // events 
+homelink.addEventListener("click", () => {
+    const filteredTemples = temples.filter(temple => temple.area > 1);
+    createTempleCard(filteredTemples);
+
 smalllink.addEventListener("click", () => {
     const filteredTemples = temples.filter(temple => temple.area < 10000);
     createTempleCard(filteredTemples);
@@ -180,6 +185,5 @@ function createTempleCard(filteredTemples) {
 
     })
 }
-
 
 
