@@ -23,7 +23,7 @@
 
     }
 
-   
+
     img {
         width: 200px;
         height: 200px;
@@ -118,6 +118,7 @@ h2 {
     border-bottom: 1px solid;
 }
 
+* {}
 
 header {
     max-width: 100%;

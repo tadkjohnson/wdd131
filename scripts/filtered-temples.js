@@ -132,8 +132,7 @@ const img = document.querySelector("img")
 
 // events 
 homelink.addEventListener("click", () => {
-    const filteredTemples = temples.filter(temple => temple.area > 1);
-    createTempleCard(filteredTemples);
+    createTempleCard(temples);
 })
 
 smalllink.addEventListener("click", () => {
