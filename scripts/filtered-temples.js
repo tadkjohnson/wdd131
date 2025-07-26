@@ -111,12 +111,12 @@ const temples = [
     },
 
     {
-        templeName: "Bern Switzerland",
-        location: "Zollikofen, Switzerland",
-        dedicated: "1992, October 25",
-        area: 35546,
+        templeName: "Brisbabne Australia",
+        location: "Queensland, Australia",
+        dedicated: "2003, June 15",
+        area: 10700,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/bern-switzerland-temple/bern-switzerland-temple-50470.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/brisbane-australia-temple/brisbane-australia-temple-43737.jpg"
     },
 
 ];
