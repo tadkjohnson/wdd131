@@ -17,7 +17,7 @@
     section {
         padding: 1rem;
         background-color: hsl(0, 5%, 85%);
-        align-self:center; 
+        align-self: center;
         border-radius: 5px;
         border: 1px;
         border: black solid;
@@ -39,8 +39,8 @@
 
 
     img {
-        max-width: 100%;
-        height: auto;
+        max-width: 300px;
+        max-height: 300px;
         display: block;
     }
 
@@ -75,7 +75,7 @@
         padding: .25rem;
     } */
 
-   a:before {
+    a:before {
         display: block;
         text-align: center;
         padding: .5rem;
