@@ -111,12 +111,12 @@ const temples = [
     },
 
     {
-        templeName: "Brisbabne Australia",
+        templeName: "Brisbane Australia",
         location: "Queensland, Australia",
         dedicated: "2003, June 15",
         area: 10700,
         imageUrl:
-            "https://churchofjesuschristtemples.org/assets/img/temples/brisbane-australia-temple/brisbane-australia-temple-43737.jpg"
+            "https://churchofjesuschristtemples.org/assets/img/temples/brisbane-australia-temple/brisbane-australia-temple-62132.jpg"
     },
 
 ];
@@ -125,9 +125,9 @@ const oldlink = document.querySelector("#old");
 const newlink = document.querySelector("#new");
 const largelink = document.querySelector("#large");
 const smalllink = document.querySelector("#small");
-const img = document.querySelector("img") 
+const img = document.querySelector("img")
     ;
-    
+
 
 // events 
 smalllink.addEventListener("click", () => {
