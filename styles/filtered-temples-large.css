@@ -9,8 +9,10 @@
     .grid1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        justify-items:center;
         /* grid-auto-rows: 400x;  */
         grid-gap: 10px;
+        
 
     }
 
