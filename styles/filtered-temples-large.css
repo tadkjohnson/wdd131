@@ -32,7 +32,7 @@
         flex: 1 1 100%;
     }
 
-    .navigation button, .navigation a {
+    .navigation a {
         text-align: center;
         border-style: none;
     }
@@ -58,7 +58,7 @@
 
     }
 
-    button:before {
+    /* button:before {
         display: block;
         text-align: center;
         padding: .5rem;
@@ -73,13 +73,13 @@
         border-radius: .5rem;
         border-style: double;
         padding: .25rem;
-    }
+    } */
 
    a:before {
         display: block;
         text-align: center;
         padding: .5rem;
-        border: 5px;
+        /* border: 5px; */
         text-decoration: none;
         border-style: none;
         border-color: rgba(219, 217, 217, 0.452);
