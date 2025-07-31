@@ -1,0 +1,53 @@
+/* colors 
+--cal-poly-green: #295135ff;
+--beige: #eaf0ceff;
+--silver: #c0c5c1ff;        
+--bistre: #251605ff;    
+--coral: #fc7753ff;                */
+
+ :root {
+    --heading-font: ".lato-bold", sans-serif;
+    --body-font: ".roboto", sans-serif;
+    margin: 1.5em;
+    width: 100%;
+ }
+
+
+ .font-r {
+     font-family: "Roboto", sans-serif;
+     font-style: normal;
+     font-variation-settings:
+         "wdth" 100;
+ }
+
+ .font-b {
+     font-family: "Lato", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
+
+ .font-bb {
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+ }
+
+
+
+.color-box {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 20px;
+}
+
+.colored-squares {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+.font-r {
+
+}
