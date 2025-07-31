@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="PJX9JKJy5KzWJc68_nqa">
+    <mxGraphModel dx="1901" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8NNf2UId70UZPEbqITqU-7" value="table of games ifo&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="510" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-1" value="Title&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="10" width="1730" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-2" value="Nav bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-3" value="Nav bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-4" value="Nav bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="60" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-5" value="Nav bar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="60" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-18" value="call to action link to places to play&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="550" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-19" value="game pic and description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="160" width="490" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-22" value="game pic and description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="150" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-23" value="game pic and description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="500" width="505" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-24" value="game pic and description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="500" width="540" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-25" value="game pic and description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="505" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-26" value="game pic and description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="770" width="540" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="8NNf2UId70UZPEbqITqU-27" value="game pic and description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="755" width="515" height="235" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
