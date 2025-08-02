@@ -31,10 +31,10 @@
             <select id="future" name="future" required>
                 <!-- use a custom buttom from java script here? to get rid of the error?-->
                 <option value="" disabled selected>Select a Product</option>
-                <option value="antimatter">Anti-matter</option>
+                <!-- <option value="antimatter">Anti-matter</option>
                 <option value="tricorder">Tricorder</option>
                 <option value="replicator">Replicator</option>
-                <option value="dilithium">Dilithium Crystals</option>
+                <option value="dilithium">Dilithium Crystals</option> -->
             </select>
         </fieldset>
         <fieldset class="fieldset">
@@ -91,17 +91,13 @@
             <label for="username">Name (optional)</label>
             <input type="text" id="username" name="username" placeholder="Enter your name">
         </fieldset>
+    </form>
         <fieldset class="buttonthing">
-            <input type="submit" value="Post it for the world to see">
+            <form id="reviewForm" action="review.html" method="POST">
+                <button type="submit">Post it for the World to see!</button></form>           
         </fieldset>
-        </form>
+        
     </main>
-
-
-
-
-
-
 
     </form>
 
