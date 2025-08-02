@@ -15,100 +15,98 @@
     <title> Product Review Form </title>
     <script src="scripts/form.js" defer></script>
 </head>
-
 <body>
     <header class="box">
-        <h1>Product Review</h1>
+        <h1>Product Review</h1>        
     </header>
+
     <main class="box3">
+        <form method="get" action="review.html"></form>
+        
         <fieldset class="fieldset">
-            <form method="get" action="review.html">
-                <label for="product">Product Name</label>
+            <label for="product">Product Name</label>
+            <input type="text" id="product" name="product" required>
         </fieldset>
-        <fieldset class="fieldset">
 
+        <fieldset class="fieldset">
+            <label for="future"select a product></label>
             <select id="future" name="future" required>
-                <option value="" disabled selected>Select a Product</option>
-                <option value="antimatter">Anti-matter</option>
-                <option value="tricorder">Tricorder</option>
-                <option value="replicator">Replicator</option>
-                <option value="dilithium">Dilithium Crystals</option>
-            </select>
-        </fieldset>
-        <fieldset class="fieldset">
-            <label for="stars">0-5 star review</label>
+            <option value=""disabled selected>Select a Product</option>
+            <option value="antimatter">Anti-matter</option>
+            <option value="tricorder">Tricorder</option>
+            <option value="replicator">Replicator</option>
+            <option value="dilithium">Dilithium Crystals</option>
+        </select>
+         </fieldset>
+<fieldset class="fieldset">
+        <label for="stars">0-5 star review</label>
             <div class="stars">
-                <label for="star0">0 </label><input type="radio" id="star0" name="stars" value="0" required>
-                <label for="star1">1 </label><input type="radio" id="star1" name="stars" value="1" required>
-                <label for="star2">2 </label><input type="radio" id="star2" name="stars" value="2" required>
-                <label for="star3">3 </label><input type="radio" id="star3" name="stars" value="3" required>
-                <label for="star4">4 </label><input type="radio" id="star4" name="stars" value="4" required>
-                <label for="star5">5 </label><input type="radio" id="star5" name="stars" value="5" required>
-            </div>
+	<!-- <label for="star0">0 </label><input type="radio" id="star0" name="stars" value="0" required>  -->
+	<label for="star1">1 </label><input type="radio" id="star1" name="stars" value="1" required> 
+	<label for="star2">2 </label><input type="radio" id="star2" name="stars" value="2" required> 
+	<label for="star3">3 </label><input type="radio" id="star3" name="stars" value="3" required> 
+	<label for="star4">4 </label><input type="radio" id="star4" name="stars" value="4" required> 
+  	<label for="star5">5 </label><input type="radio" id="star5" name="stars" value="5" required> 
+</div>
+ </fieldset>
+<fieldset class="fieldset">
+<div class="date">
+    <label for="installation">Date of Installation</label>
+    <input type="date" id="installation" name="installation" required>
+ </fieldset>
+<fieldset class="fieldset">
+</div>
+    <label for="features">Which features did you (check all that apply)</label>
+    <section class="stacked">
+    <div class="row"><input type="checkbox" id="task" name="task" value="task">
+        <label for="task" data-content="features" class="inline">Ease of use</label>
+	
+    </div><div class="row"><input type="checkbox" id="task" name="task" value="task">
+        <label for="task" data-content="features" class="inline">Impressive Design</label>
+	
+    </div><div class="row"><input type="checkbox" id="task" name="task" value="task">
+        <label for="task" data-content="features" class="inline">One of a kind</label>
+	
+    </div><div class="row"><input type="checkbox" id="task" name="task" value="task">
+        <label for="task" data-content="features" class="inline">Simple Use</label>
+
+    </div><div class="row"><input type="checkbox" id="task" name="task" value="task">
+        <label for="task" data-content="features" class="inline">Color</label>
+	
+    </div></section>
+ 
+ </fieldset>
+<fieldset class="fieldset">
+ <div class="contact">
+    <label for="review"> Write a Review (optional)</label>
+    <p></p>
+    <textarea id="review" name="review" rows="4" cols="100" placeholder="Share your thoughts..."></textarea>
+</div>
+ </fieldset>
+<fieldset class="fieldset">
+<label for="username">Name (optional)</label>
+<input type="text" id="username" name="username" placeholder="Enter your name">
+  </fieldset>
+<fieldset class="buttonthing">
+<input type="submit" value="Post it for the world to see">
         </fieldset>
-        <fieldset class="fieldset">
-            <div class="date">
-                <label for="installation">Date of Installation</label>
-                <input type="date" id="installation" name="installation" required>
-        </fieldset>
-        <fieldset class="fieldset">
-            </div>
-            <label for="features">Which features did you (check all that apply)</label>
-            <section class="stacked">
-                <div class="row"><input type="checkbox" id="task" name="task" value="task">
-                    <label for="task" data-content="features" class="inline">Ease of use</label>
-
-                </div>
-                <div class="row"><input type="checkbox" id="task" name="task" value="task">
-                    <label for="task" data-content="features" class="inline">Impressive Design</label>
-
-                </div>
-                <div class="row"><input type="checkbox" id="task" name="task" value="task">
-                    <label for="task" data-content="features" class="inline">One of a kind</label>
-
-                </div>
-                <div class="row"><input type="checkbox" id="task" name="task" value="task">
-                    <label for="task" data-content="features" class="inline">Simple Use</label>
-
-                </div>
-                <div class="row"><input type="checkbox" id="task" name="task" value="task">
-                    <label for="task" data-content="features" class="inline">Color</label>
-
-                </div>
-            </section>
-
-        </fieldset>
-        <fieldset class="fieldset">
-            <div class="contact">
-                <label for="review"> Write a Review (optional)</label>
-                <p></p>
-                <textarea id="review" name="review" rows="4" cols="100" placeholder="Share your thoughts..."></textarea>
-            </div>
-        </fieldset>
-        <fieldset class="fieldset">
-            <label for="username">Name (optional)</label>
-            <input type="text" id="username" name="username" placeholder="Enter your name">
-        </fieldset>
-        <fieldset class="buttonthing">
-            <input type="submit" value="Post it for the world to see">
-        </fieldset>
-        </form>
-    </main>
-
-
-
-
-
-
-
     </form>
+</main>
+
+
+
+
+
+
+
+</form>
 
     <footer class="box">
         <p>&copy;<span id="currentyear"></span> Tad Johnson | Tennessee </p>
         <p><span id="LastModified"> </span></p>
     </footer>
 
-
+    
 </body>
-
 </html>
+
