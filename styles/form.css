@@ -27,12 +27,12 @@ header {
 .box {
     padding: 1em;
     border-radius: 20px;
-    
+
 }
- 
+
 
 .box3 {
-    padding:10px;
+    padding: 10px;
     /* border-color: solid 5em; */
     /* border:4px solid black; */
 
@@ -48,28 +48,29 @@ header {
 .stacked {
     display: flex;
     flex-direction: column;
-     
+
 
     margin-top: 1em;
-    align-items:flex-start;
-    
+    align-items: flex-start;
+
 }
- 
+
 .row {
     display: flex;
     align-items: center;
-    gap: 1em; /* space between checkbox and label */
-    margin-bottom: 0.25em;  
+    gap: 1em;
+    /* space between checkbox and label */
+    margin-bottom: 0.25em;
 }
 
-.stars input{
+.stars input {
     margin-right: 10px;
 
 }
 
 .buttonthing {
-    text-align:center;
-   
+    text-align: center;
+
     max-width: 300px;
     /* margin: .5rem; */
     /* background-color:rgb(245, 243, 240); */
@@ -78,7 +79,7 @@ header {
     border: 3px dotted rgb(13, 14, 14);
     border-radius: 5rem;
     padding: .5rem;
-    }
+}
 
 .buttonthing:hover {
     background-color: rgb(13, 14, 14);
