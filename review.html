@@ -23,37 +23,7 @@
   
   <div id="form-data"></div>
 
-  <script>
-    // Function to parse query string
-    function getQueryParams() {
-      const params = new URLSearchParams(window.location.search);
-      const entries = {};
-      for (const [key, value] of params.entries()) {
-        entries[key] = decodeURIComponent(value.replace(/\+/g, " "));
-      }
-      return entries;
-    }
-
-    // Display form data
-    function displayFormData() {
-      const data = getQueryParams();
-      const outputDiv = document.getElementById('form-data');
-      if (Object.keys(data).length === 0) {
-        outputDiv.innerHTML = "<p>No data submitted.</p>";
-        return;
-      }
-
-      let html = "<ul>";
-      for (const key in data) {
-        html += `<li><span class="data-label">${key}:</span> ${data[key]}</li>`;
-      }
-      html += "</ul>";
-      outputDiv.innerHTML = html;
-    }
-
-    // Run on page load
-    window.onload = displayFormData;
-  </script>
+  
 </body>
 
 </html>
