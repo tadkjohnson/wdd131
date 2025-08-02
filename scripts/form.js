@@ -1,10 +1,9 @@
 document.getElementById('currentyear').textContent = new Date().getFullYear();
-
 document.getElementById(`LastModified`).textContent = `Last Modified: ${document.lastModified}`;
 // this above is the date stuff  modified and year .
 
 
-const select = document.getElementById(`future`);
+
 
 const products = [
     {
@@ -34,9 +33,11 @@ const products = [
     }
 ];
 
-function populateProductSelect() {
-    const select = document.getElementById("future");
-}
+
+const select = document.getElementById(`future`);
+// function populateProductSelect() {
+//     const select = document.getElementById("future");
+// }
     
 select.innerHTML = '<option value="" disabled selected>Select a Product</option>';
 
@@ -47,30 +48,25 @@ select.innerHTML = '<option value="" disabled selected>Select a Product</option>
     select.appendChild(option);
   });
 
-document.addEventListener("DOMContentLoaded", populateProductSelect);
-
-
-
-
-
-
-
+document.addEventListener("DOMContentLoaded", () => {
+    populateProductSelect();
 
     // local storage counter
     let reviewCount = localStorage.getItem("reviewCount");
 
     //starts at 0 if no counter there.  
-    if (!reviewCount) {
-      reviewCount = 0;
-    }
+if (!reviewCount) {
+    reviewCount = 0;
+} else {
+    reviewCount = parseInt(reviewCount, 10);
+    
+}
+reviewCount += 1;
+localStorage.setItem("reviewCount", reviewCount);
 
- 
-    reviewCount = parseInt(reviewCount, 10) + 1;
-    localStorage.setItem("reviewCount", reviewCount);
+const display = document.getElementById("reviewCountDisplay");
+if (display) { 
+    display.textContent = `You have submitted ${reviewCount} review(s)`;
+}
+});
 
-  
-    const display = document.getElementById("reviewCountDisplay");
-    if (display) {
-      display.textContent = `You have submitted ${reviewCount} review(s).`;
-    }
- 

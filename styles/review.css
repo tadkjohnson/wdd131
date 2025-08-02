@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    max-width: 100%;
+    display: block;
+    background-color: rgba(219, 217, 217, 0.452);
+    font-weight: 700;
+    padding: 0px 0px 10px 20px;
+    border-top: solid .5em;
+    text-align: center;
+}
+
+header {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    background-color: rgba(219, 217, 217, 0.452);
+    font-weight: 700;
+    padding: 10px 0px 0px 0px;
+    border-bottom: solid .5em;
+}

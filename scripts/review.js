@@ -11,10 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // Optional: Display the number of reviews submitted
   document.getElementById('counter').textContent = reviewCount;
 });
-  </script >
-</head >
-  <body>
-    <h1>Thank you for your review!</h1>
-    <p>You have submitted <span id="counter">0</span> review(s) so far.</p>
-  </body>
-</html >
+
+
+
+
