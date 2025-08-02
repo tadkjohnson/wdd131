@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Table Top Gaming club, a overview of the club, the gaming and the people. ">
+    <meta name="author" content="Tad Johnson">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <title> Review Submitted page </title>
+    <script src="scripts/form.js" defer></script>
+</head>
+<body>
+  <h1>Review Your Submission</h1>
+  <div id="form-data"></div>
+
+  <script>
+    // Function to parse query string
+    function getQueryParams() {
+      const params = new URLSearchParams(window.location.search);
+      const entries = {};
+      for (const [key, value] of params.entries()) {
+        entries[key] = decodeURIComponent(value.replace(/\+/g, " "));
+      }
+      return entries;
+    }
+
+    // Display form data
+    function displayFormData() {
+      const data = getQueryParams();
+      const outputDiv = document.getElementById('form-data');
+      if (Object.keys(data).length === 0) {
+        outputDiv.innerHTML = "<p>No data submitted.</p>";
+        return;
+      }
+
+      let html = "<ul>";
+      for (const key in data) {
+        html += `<li><span class="data-label">${key}:</span> ${data[key]}</li>`;
+      }
+      html += "</ul>";
+      outputDiv.innerHTML = html;
+    }
+
+    // Run on page load
+    window.onload = displayFormData;
+  </script>
+</body>
+</html>

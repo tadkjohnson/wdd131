@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    max-width: 100%;
+    display: block;
+    background-color: rgba(219, 217, 217, 0.452);
+    font-weight: 700;
+    padding: 0px 0px 10px 20px;
+    border-top: solid .5em;
+    text-align: center;
+}
+
+header {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    background-color: rgba(219, 217, 217, 0.452);
+    font-weight: 700;
+    padding: 10px 0px 0px 0px;
+    border-bottom: solid .5em;
+}
+
+.box {
+    padding: 1em;
+    border-radius: 20px;
+    
+}
+ 
+
+.box3 {
+    padding:10px;
+    /* border-color: solid 5em; */
+    /* border:4px solid black; */
+
+}
+
+.fieldset {
+    background-color: rgba(219, 217, 217, 0.452);
+    padding: 10px;
+    margin-bottom: .5em;
+    border: 2px solid black;
+}
+
+.stacked {
+    display: flex;
+    flex-direction: column;
+     
+
+    margin-top: 1em;
+    align-items:flex-start;
+    
+}
+ 
+.row {
+    display: flex;
+    align-items: center;
+    gap: 1em; /* space between checkbox and label */
+    margin-bottom: 0.25em;  
+}
+
+.stars input{
+    margin-right: 10px;
+
+}
+
+.buttonthing {
+    text-align:center;
+   
+    max-width: 300px;
+    /* margin: .5rem; */
+    /* background-color:rgb(245, 243, 240); */
+    /* color:rgb(30, 144, 243); */
+    font-weight: 600;
+    border: 3px dotted rgb(13, 14, 14);
+    border-radius: 5rem;
+    padding: .5rem;
+    }
+
+.buttonthing:hover {
+    background-color: rgb(13, 14, 14);
+    /* color: rgb(13, 14, 14); */
+    font-weight: 600;
+
+}
