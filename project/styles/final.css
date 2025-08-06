@@ -1,26 +1,26 @@
-@media screen and (min-width: 800px) {
-
-    /* main {
-        margin: 2em auto;
-        min-width: 800px;
-
-    }  */
-
-    /* .grid1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
-        /* grid-auto-rows: 400x;  */
-    /* grid-gap: 10px; */
-
-
-
+@media screen and (max-width: 800px) {
 
 * {
     margin: 0 auto;
     box-sizing: border-box;
 }
-/* needs tobe in only final.css and outside the small screen section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 :root {
     --primary-color: #295135;
     /*  primary*/
@@ -34,9 +34,6 @@
     --heading-font: ".lato-bold", sans-serif;
     --body-font: ".roboto", sans-serif;
     --side-font: ".lato-regular", sans-serif;
-
-
-}
 
 .roboto {
     font-family: "Roboto", sans-serif;
@@ -168,7 +165,13 @@ footer {
     padding: 20px;
 } */
 /* 
-
+.navigation-bar {
+    display: flex;
+    justify-content: space-around;
+    grid-gap: 20px;
+    align-items: center;
+    grid-column: 3;
+} */
 /* 
 .grid-section-container {
     display: grid;
@@ -212,7 +215,6 @@ footer {
     /* padding: 1rem; */
     left: 0px;
     right: 0px;
-    font-family: var(--side-font);
     color: var(--accent1-color);
     font-weight: 600;
     font-size: 1rem;
