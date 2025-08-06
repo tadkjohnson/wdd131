@@ -94,7 +94,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 
@@ -234,7 +234,10 @@ body {
 .shrunk {
     font-size: 75%; 
 }
-
+.start {
+    border-top: solid 2px black;
+    padding: 10px;
+}
 
 
 
@@ -283,15 +286,30 @@ body {
 } */
 
 
-/* 
-
 .map-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 20px;
-    margin-left: 2em;
-    margin-right: 2em;
-} */
+    /* margin-left: 1em;
+    margin-right: 1em; */
+} 
+.direction {
+    grid-columns: 1;
+    width: 100%;
+    padding-bottom: 20px;
+    /* margin-left: 2em; */
+    /* margin-right: 2em; */
+} 
+.direction2 {
+    grid-columns: 2;
+    width: 100%;
+} 
+
+.direction3 {
+    grid-columns: 3;
+    width: 100%;
+} 
+
 /* 
 .section-guides {
     display: grid;
