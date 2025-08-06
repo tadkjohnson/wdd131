@@ -15,13 +15,13 @@
 
 
 
-
+/* 
 * {
     margin: 0 auto;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 /* needs tobe in only final.css and outside the small screen section */
-:root {
+/* :root {
     --primary-color: #295135;
     /*  primary*/
     --secondary-color: #eaf0ce;
@@ -34,10 +34,10 @@
     --heading-font: ".lato-bold", sans-serif;
     --body-font: ".roboto", sans-serif;
     --side-font: ".lato-regular", sans-serif;
-
+ */
 
 }
-
+/* 
 .roboto {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -61,7 +61,7 @@
     margin: 0;
     display: grid;
     text-align: center;
-    /* grid-template-rows: 2em 2.5em; */
+    /* grid-template-rows: 2em 2.5em; 
     font-size: 3em;
     font-weight: 700;
     color: var(--accent1-color);
@@ -82,7 +82,7 @@
     /* flex-direction: column; */
 }
  
-/* .navigation li { */
+/*
     
 }
 .navigation a { 
@@ -98,7 +98,7 @@
 .navigation li a:active {
     color: var(--accent1-color);
     
-}
+} */
 /* .show li {
         display: block;
     } */
