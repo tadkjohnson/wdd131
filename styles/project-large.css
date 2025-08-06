@@ -95,3 +95,11 @@
     }
 
 }
+
+.game_background {
+    background-image: url('images/games.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
