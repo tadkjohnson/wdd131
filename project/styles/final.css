@@ -119,18 +119,15 @@
     }
 
     .hero-article {
-        position: relative;
-        /* top: 10rem; */
-        /* width: 25em; */
-        /* float: right; */
+        position: absolute;
+        top: 8rem;
+        width: 35%;
+        float: right;
         background: var(--secondary-color);
-        font-size: 1.5em;
-        line-height: 1em;
-
-
     }
 
     .hero-article-p {
+        position: relative;
         left: 0px;
         right: 0px;
         padding: 10px;
@@ -177,6 +174,10 @@
         border-top: solid 2px black;
         padding: 10px;
     }
+
+
+
+
 
 
 
