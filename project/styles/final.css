@@ -231,7 +231,9 @@ body {
     border-color: var(--primary-color);
     border-radius: 30%;
 }
-
+.shrunk {
+    font-size: 75%; 
+}
 
 
 
