@@ -101,18 +101,6 @@
     
 }
 
-/* .show li {
-        display: block;
-    } */
-
-}
-
-/* a */
-/* b */
-/* c */
-/* d */
-
-
 h1,
 h2,
 h4,
@@ -203,24 +191,47 @@ body {
 }
 
 .hero-article {
-    position: absolute;
-    top: 15rem;
-    width: 25em;
-    float: right;
+    position: relative;
+    /* top: 10rem; */
+    /* width: 25em; */
+    /* float: right; */
     background: var(--secondary-color);
+    font-size: 1.5em;
+    line-height: 1em;
+
+   
 }
 
 .hero-article-p {
-    /* padding: 1rem; */
     left: 0px;
     right: 0px;
+    padding: 10px;
     color: var(--accent1-color);
-    font-weight: 600;
-    font-size: 1rem;
-    position: stickey;
+     
 }
 
-.hero img {
+
+.fix-spacing1 {
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.fix-spacing2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    /* text-align: center; */
+    /* font-weight: 400; */
+
+}
+
+
+
+
+/* .hero img {
     display: block;
     width: 100%;
     height: auto;
@@ -230,7 +241,7 @@ body {
     float: right;
     width: 125px;
 }
-
+ */
 
 
 
@@ -364,14 +375,14 @@ button:hover {
 
 }
 
-.book-an-adventure {
+/* .book-an-adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 20px;
     padding-bottom: 20px;
     justify-self: center;
-}
-
+} */
+/* 
 .button2 {
     grid-column: span 3;
     text-align: center;
@@ -381,7 +392,7 @@ button:hover {
     border: 5px solid var(--accent1-color);
     font-size: large;
     font-weight: 900;
-}
+} */
 
 .fix-spacing1 {
     padding: 10px;
