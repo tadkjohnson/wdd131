@@ -175,10 +175,18 @@
         padding: 10px;
     }
 
-    .players {
+    .events {
         /* border-top: dashed line 5em black; */
-        ;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: var(--accent2-color) solid .1em;
     }
+    .placement {
+        
+        
+
+        
+    } 
 
     .places {
         padding: 10px;
