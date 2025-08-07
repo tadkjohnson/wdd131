@@ -180,6 +180,12 @@
         ;
     }
 
+    .places {
+        padding: 10px;
+        border: solid .25em;
+        border-color: var(--primary-color);
+
+    }
 
 
 
