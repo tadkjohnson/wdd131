@@ -121,21 +121,29 @@
 
     .hero-article {
         position: absolute;
-        top: 8rem;
-        width: 35%;
+        top: 10rem;
+        width: 25%;
+        height: 35%;
         float: right;
         background: var(--secondary-color);
     }
 
-    .hero-article-p {
+    .hero-article-p {   /*large size, for smaller screens change the paragraph to be smaller*/
         position: relative;
         left: 0px;
         right: 0px;
-        padding: 10px;
-        color: var(--accent1-color);
-
+        padding: 20px;
+        font-size: larger;
+        max-width: 95%;
+        text-align: center;       
     }
+    .fitimage {
+        max-width: 95%;
+        padding-left: 25px;
 
+
+        
+    }
 
     .fix-spacing1 {
         padding: 10px;
