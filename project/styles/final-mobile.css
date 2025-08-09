@@ -1,12 +1,12 @@
 @media (max-width: 500px) {
-   
+
 
     .hero-article {
         display: none;
     }
 
     .hero-article-p {
-       display: none;
+        display: none;
     }
 
     .fitimage {
@@ -18,19 +18,20 @@
         grid-template-columns: 1fr;
         align-items: center;
         width: 95%;
-      
-      }
+
+    }
 
     .label {
         display: grid;
         margin-bottom: 10px;
     }
+
     .fix-spacing2 {
         display: grid;
         margin-bottom: 10px;
     }
-    
-* {
+
+    * {
         margin: 0 auto;
         box-sizing: border-box;
         max-width: 95%;
@@ -43,6 +44,3 @@
 
 
 }
-    
-
-
