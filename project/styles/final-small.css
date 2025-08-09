@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) and (min-width: 501px) and (orientation: landscape) and (orientation: portrait) {
+@media screen and (max-width: 768px) and (min-width: 501px) and (orientation: landscape) {
 
     .hero-article {
         display: none;
