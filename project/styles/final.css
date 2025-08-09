@@ -58,7 +58,7 @@ body {
     border-bottom: solid .5em;
     border-color: var(--primary-color);
     border-radius: 30%;
-    */
+
 }
 
 .navigation {
@@ -125,9 +125,7 @@ h6 {
 .hero-article {
     position: absolute;
     top: 8rem;
-
     width: 25%;
-    height: ~75%;
     float: right;
     background: var(--secondary-color);
 }
@@ -273,12 +271,6 @@ h6 {
 
 }
 
-
-
-
-
-
-
 .image1 {
     grid-column: 1;
 }
@@ -308,61 +300,6 @@ h6 {
     grid-row: 2;
     align-content: center;
 }
-
-
-/* places page  */
-
-
-
-
-
-
-
-/* 
-.fix-spacing1 {
-    padding: 10px;
-    text-align: center;
-    font-weight: 400;
-} */
-/* 
-.trip-table {
-    columns: 1;
-    padding: 5px;
-    border-spacing: 10px;
-} */
-/* 
-th {
-    text-align: start;
-    padding: 5px;
-    border-bottom: .2px solid #000;
-} */
-/* 
-td {
-    text-align: center;
-} */
-/* 
-.trip-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 10px;
-    border: .5px solid;
-} */
-/* 
-.trip-page-button {
-    border: 2px solid #200404;
-    font-size: medium;
-    font-weight: 600;
-    position: absolute;
-    border-radius: 20px;
-    padding: 5px;
-    top: 18em;
-    right: 25em;
-    background-color: #e7dfc6;
-
-} */
-/* 
-
-
 
 
 
