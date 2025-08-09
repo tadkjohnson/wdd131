@@ -1,5 +1,5 @@
-@media screen and (max-width: 768px) and (min-width: 501px) and (orientation: landscape) and (orientation: portriat) {
-  
+@media screen and (max-width: 768px) and (min-width: 501px) and (orientation: landscape) and (orientation: portrait) {
+
     .hero-article {
         display: none;
     }
@@ -11,44 +11,85 @@
     .smallest {
         display: grid;
 
-        max-width:fit-content;
+        max-width: fit-content;
     }
-    label, input {
+
+    label,
+    input {
         display: block;
         margin-bottom: 10px;
 
     }
 
-.navigation {
-  display: none;
-  flex-direction: column;
-}
+    .navigation {
+        display: none;
+        flex-direction: column;
+    }
 
-.navigation.show {
-  display: flex;
-}
+    .navigation.show {
+        display: flex;
+    }
 
-@media screen and (min-width: 768px) {
-  .navigation {
-    display: flex !important;
-    flex-direction: row;
-  }
+    @media screen and (min-width: 768px) {
+        .navigation {
+            display: flex !important;
+            flex-direction: row;
+        }
 
-  .hamburger {
-    display: none;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
+        .hamburger {
+            display: none;
+        }
+    }
 
 
 }
+
+@media screen and (max-width: 768px) and (min-width: 501px) and (orientation: portrait) {
+    .hero-article {
+        display: none;
+    }
+
+    body {
+        max-width: 95%;
+    }
+
+    .smallest {
+        display: grid;
+
+        max-width: fit-content;
+    }
+
+    label,
+    input {
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+    }
+
+    .navigation.show {
+        display: flex;
+    }
+
+    @media screen and (min-width: 768px) {
+        .navigation {
+            display: flex !important;
+            flex-direction: row;
+        }
+
+        .hamburger {
+            display: none;
+        }
+
+
+
+
+
+
+
+
+    }

@@ -66,7 +66,7 @@
 
 }
 
-@media screen and (max-width: 500px) and (orientation: portriat) {
+@media screen and (max-width: 500px) and (orientation: portrait) {
     * {
         margin: 0 auto;
         box-sizing: border-box;
