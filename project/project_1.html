@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="styles/final-mobile.css"> <!--under 400 screen both landscape/portriat on mobile for both-->
     <link rel="stylesheet" href="styles/final-small.css"> <!--screens between 768 and 400 -->
     <title> Table Top Gaming Club </title>
-    <script src="script/project.js" defer></script>
-    <script src="script/getdates.js" defer></script>
+    <script src="/script/project.js" defer></script>
+    <script src="/script/getdates.js" defer></script>
 </head>
 
 <body>
@@ -30,17 +30,16 @@
                 <li><a href="project_1.html">Final Project</a></li>
                 <li><a href="places.html">Places</a></li>
                 <li><a href="people.html">Events</a></li>
-                <li><a href="games.html">Games</a></li>
             </ul>
         </nav>
     </header>
     <main>
 
         <div class="hero">
-            <img src="images/free_games.jpg" alt="table top games" width=100%>
+            <img src="images/free_games.jpg" alt="table top games" width="100%">
             <h1> This is some of the games we play! </h1>
             <article class="hero-article">
-                <p class="hero-article-p"><p><br>We play taple top games this includes: Dungeon & Dragons,
+                <p class="hero-article-p"><br>We play taple top games this includes: Dungeon & Dragons,
                     Magic The Gathering, Pokemon, Wingspan, Munchkin,
                     Dominion, Marvel, Starwars, Startrek, HeroScape, Warhammer: 40,000, Warhammer: Fantasy Battle,
                     SmallWorld,
@@ -94,46 +93,46 @@
                 <input type="checkbox" name="mtg" id="mtg">
 
                 <label for="2"> Pokemon</label>
-                <input type="checkbox" name="Pokemon" id="Pokemon">
+                <input type="checkbox" name="Pokemon" id="pokemon">
 
                 <label for="3"> Dominion</label>
-                <input type="checkbox" name="Dominion" id="Dominion">
+                <input type="checkbox" name="Dominion" id="dominion">
 
                 <label for="4">Dungeons & Dragons</label>
                 <input type="checkbox" name="dnd" id="dnd">
 
                 <label for="5"> WingSpan</label>
-                <input type="checkbox" name="WingSpan" id="WingSpan">
+                <input type="checkbox" name="WingSpan" id="wingSpan">
 
                 <label for="6"> Splendor</label>
-                <input type="checkbox" name="Splendor" id="Splendor">
+                <input type="checkbox" name="Splendor" id="splendor">
 
                 <label for="7"> Lost Cities</label>
-                <input type="checkbox" name="Lost Cities" id="Lost Cities">
+                <input type="checkbox" name="Lost Cities" id="lost cities">
 
                 <label for="8"> Warhammer</label>
-                <input type="checkbox" name="Warhammer" id="Warhammer">
+                <input type="checkbox" name="Warhammer" id="warhammer">
 
                 <label for="9"> Pandemic</label>
-                <input type="checkbox" name="Pandemic" id="Pandemic">
+                <input type="checkbox" name="Pandemic" id="pandemic">
 
                 <label for="10">Settlers of Catan</label>
-                <input type="checkbox" name="Settlers" id="Settlers">
+                <input type="checkbox" name="Settlers" id="settlers">
 
-                <label for="11">Settlers to Ride</label>
-                <input type="checkbox" name="Ticket" id="Settlers">
+                <label for="11">Ticket to Ride</label>
+                <input type="checkbox" name="Ticket" id="ticket">
 
                 <label for="12">Smallworld</label>
-                <input type="checkbox" name="Smallworld" id="Smallworld">
+                <input type="checkbox" name="Smallworld" id="smallworld">
 
                 <label for="13">Fantasy Battle</label>
-                <input type="checkbox" name="Fantasy" id="Fantasy">
+                <input type="checkbox" name="Fantasy" id="fantasy">
 
                 <label for="14">Carassonne</label>
-                <input type="checkbox" name="Carassonne" id="Carassonne">
+                <input type="checkbox" name="Carassonne" id="carassonne">
 
                 <label for="15">Dawn Patrol</label>
-                <input type="checkbox" name="Dawn" id="Dawn">
+                <input type="checkbox" name="Dawn" id="dawn">
 
                 <p>To name a few.... </p>
 
@@ -142,8 +141,10 @@
             </div>
 
               <div>
-                    <label for="newsletter">Suscribe to our a newsletter?</label><button type="submit"> Submit here, and Please give us 24 buisness hours to respond. </button>
-                <!-- do something w/ java script on the submit button /wording  change what it says after click -->
+                    <button id="reveal1">Show Message</button>
+                    <p id="hiddenMessage" class="hidden1"> Come join us August 23, at 6pm at Canada's for a massive game</p>
+
+               
                  </div>
         </fieldset>
     </main>

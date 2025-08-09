@@ -19,10 +19,62 @@ hambutton.addEventListener('click', () => {
 
 
 
-// get title line to do something 
-const submit = document.getElementById('submit');
-title.addEventListener('click', () => {
-    alert('Welcome to the Club! We will respond ASAP!');
-});
+// // get title line to do something
+// const submit = document.getElementById('submit');
+// title.addEventListener('click', () => {
+//     alert('Welcome to the Club! We will respond ASAP!');
+// });
  
+
+
+document.getElementById('reveal').addEventListener('click', () => {
+  document.getElementById('message').classList.remove('hidden');
+});
+
+
+
+
+const button = document.getElementById('reveal1');
+const message = document.getElementById('hiddenMessage');
+
+button.addEventListener('click', () => {
+  message.classList.toggle('hidden');
+});
+
+function annotateDominions() {
+  const element = document.getElementById('gameDescription');
+
+  // Replace "Dominions" with a span that includes extra info
+  element.innerHTML = element.innerHTML.replace(/Dominions/g, 'Dominion <span class="info">(1 hr, 2–4 players)</span>');
+}
+
+annotateWarhammer();
+
+function annotateWarhammer 40k() {
+  const element = document.getElementById('gameDescription');
+
+  // Replace "Warhammer 40k" with a span that includes extra info
+  element.innerHTML = element.innerHTML.replace(/Warhammer/g, 'Warhammer <span class="info">(3+ hrs, 2+ players)</span>');
+}
+
+annotateWarhammer 40k();
+
+
+
+// annotateWarhammer 40k();
+
+// function annotateWarhammer 40k() {
+//   const element = document.getElementById('gameDescription');
+
+//   // Replace "Warhammer 40k" with a span that includes extra info
+//   element.innerHTML = element.innerHTML.replace(/Warhammer/g, 'Warhammer 40k <span class="info">(3+ hrs, 2+ players)</span>');
+// }
+
+// annotateWarhammer();
+
+
+
+
+
+
 

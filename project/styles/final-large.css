@@ -308,10 +308,28 @@
 
     }
 
-   
+.hidden {
+    display: none;
+}
+
+.hidden1 {
+    display: none;
+}
 
 
-/* games page  */
+#hiddenMessage {
+  font-size: 1.2rem;
+  color: darkgreen;
+  margin-top: 10px;
+}
+
+
+.level {
+    display: block;
+    width:fit-content;
+    height: fit-content;
+    font-size: xx-large;    
+}
 
 
 
