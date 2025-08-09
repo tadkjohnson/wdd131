@@ -173,6 +173,9 @@
         grid-row: 2;
         align-content: center;
     }
+     .hamburger {
+        display: none;
+    }
 
 }
 
@@ -237,7 +240,7 @@
         border-radius: 30%;
 
     }
-    
+  
     .navigation {
         display: flex;
         list-style: none;
@@ -312,6 +315,7 @@
 
     }
 
+   
 
 
 /* games page  */

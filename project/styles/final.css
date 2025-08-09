@@ -60,6 +60,11 @@
 
     }
 
+    
+    .hamburger {
+        display: none;
+    }
+    
     .navigation {
         display: flex;
         list-style: none;
@@ -321,32 +326,6 @@
         align-content: center;
     }
 
+
+
 }
-
-/* games page  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* small screens below  */
-/* Responsive breakpoint */
-/*
-@media (min-width: 600px) {
-  .two-column {
-    columns: 1;
-  }
-}
-
-*/
