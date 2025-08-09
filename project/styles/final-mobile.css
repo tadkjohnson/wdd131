@@ -35,35 +35,44 @@
         box-sizing: border-box;
         max-width: 95%;
     }
-    
+
+    /* Hide nav list by default on mobile */
     .navigation {
         display: none;
+        flex-direction: column;
+        background-color: #333;
+        padding: 1rem;
+        margin: 0;
     }
 
+    .navigation li {
+        margin: 0.5rem 0;
+    }
+
+    .navigation.show {
+        display: flex;
+    }
+
+    /* Style hamburger button */
     .hamburger {
-        display: block;
-        border: 0;
+        font-size: 2rem;
         background: none;
-        color: var(--accent1-color);
-        position: absolute;
-        top: .5rem;
-        right: 1.5rem;
-    }
-    
-    .hamburger::before {
-        content: "☰";
+        border: none;
         cursor: pointer;
-    } 
-
-    .hamburger.show:after {
-        content: "❌";
-    } 
+        color: #fff;
+        padding: 1rem;
+    }
 
 
 }
 
 @media screen and (max-width: 500px) and (orientation: portriat) {
-    
+    * {
+        margin: 0 auto;
+        box-sizing: border-box;
+        max-width: 95%;
+    }
+
     .hero-article {
         display: none;
     }
@@ -94,12 +103,6 @@
         margin-bottom: 10px;
     }
 
-    * {
-        margin: 0 auto;
-        box-sizing: border-box;
-        max-width: 95%;
-    }
-    
     .navigation {
         display: none;
     }
@@ -113,32 +116,16 @@
         top: .5rem;
         right: 1.5rem;
     }
-    
+
     .hamburger::before {
         content: "☰";
         cursor: pointer;
-    } 
+    }
 
     .hamburger.show:after {
         content: "❌";
-    } 
-
-
-
-
-
- .navigation {
-        list-style: none;
-        margin: 0 auto;
-        max-width: 640px;
-        display: flex;
-        align-items: flex-end;
-        flex-direction: column;
     }
 
-    .navigation li {
-        display: none;
-    }
 
     .navigation a {
         display: block;
@@ -159,7 +146,7 @@
         display: block;
     }
 
-    #menu {
+    .menu {
         display: block;
         font-size: 1.5rem;
         border: 0;
@@ -168,14 +155,6 @@
         position: absolute;
         top: .5rem;
         right: 1.5rem;
-    }
-
-    #menu::before {
-        content: "☰";
-    }
-
-    #menu.show::before {
-        content: "❌";
     }
 
 
