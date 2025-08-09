@@ -41,6 +41,23 @@
         display: none;
     }
 
+.hamburger {
+        display: block;
+        border: 0;
+        background: none;
+        color: rgb(69, 209, 123);
+        position: absolute;
+        top: .5rem;
+        right: 1.5rem;
+    } 
+
+    .hamburger::before {
+        content: "☰";
+    } 
+
+    .hamburger::after {
+        content: "❌";
+    }
 
 
 

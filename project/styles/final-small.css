@@ -23,7 +23,7 @@
         display: none;
     }
    
-    .hamburger {
+    /* .hamburger {
         display: block;
         border: 0;
         background: none;
@@ -39,7 +39,7 @@
 
     .hamburger::after {
         content: "❌";
-    }
+    } */
 
 
 

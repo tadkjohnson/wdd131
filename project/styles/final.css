@@ -1,9 +1,8 @@
 @media screen and (max-width: 1499px) and (min-width: 801px) {
-
-
-    .hamburger {
+      .hamburger {
         display: none;
     }
+
 
     .navigation {
         display: flex;
