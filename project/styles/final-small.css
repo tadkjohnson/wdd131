@@ -55,7 +55,7 @@
     }
 
     #menu::before {
-        content: "☰";
+        content: "&#9776";
         cursor: pointer;
     } 
 
