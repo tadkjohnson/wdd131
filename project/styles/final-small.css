@@ -19,49 +19,35 @@
 
     }
 
-    .navigation {
-        display: none;
-        display: flex;  /*last 3*/
-        gap: 20px;
-        list-style: none;
-    }
+.navigation {
+  display: none;
+  flex-direction: column;
+}
 
-    .navigation.show {
-        display: flex;
-    }
+.navigation.show {
+  display: flex;
+}
 
-    .navigation a {
-        color: white;
-        text-decoration: none;
-        padding: 10px;
-    }
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: flex !important;
+    flex-direction: row;
+  }
 
-
-
-    .hamburger {
-    display: block;
-    }
-      
+  .hamburger {
+    display: none;
+  }
+}
 
 
-    #menu {
-        display: block;
-        border: 0;
-        background: none;
-        color: var(--accent1-color);
-        position: absolute;
-        top: .5rem;
-        right: 1.5rem;
-    }
 
-    #menu::before {
-        content: "&#9776";
-        cursor: pointer;
-    } 
 
-    #menu.hamburger.show:after {
-        content: "❌";
-    } 
+
+
+
+
+
+
 
 
 
