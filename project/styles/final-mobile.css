@@ -1,5 +1,4 @@
-@media (max-width: 500px) {
-
+@media screen and (max-width: 500px) and (orientation: landscape) {
 
     .hero-article {
         display: none;
@@ -37,31 +36,92 @@
         max-width: 95%;
     }
     
-     .navigation {
+    .navigation {
         display: none;
     }
 
-.hamburger {
+    .hamburger {
         display: block;
         border: 0;
         background: none;
-        color: rgb(69, 209, 123);
+        color: var(--accent1-color);
         position: absolute;
         top: .5rem;
         right: 1.5rem;
-    } 
-
+    }
+    
     .hamburger::before {
         content: "☰";
+        cursor: pointer;
     } 
 
-    .hamburger::after {
+    .hamburger.show:after {
         content: "❌";
+    } 
+
+
+}
+
+@media screen and (max-width: 500px) and (orientation: portriat) {
+    
+    .hero-article {
+        display: none;
     }
 
+    .hero-article-p {
+        display: none;
+    }
 
+    .fitimage {
+        display: none;
+    }
 
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 95%;
 
+    }
+
+    .label {
+        display: grid;
+        margin-bottom: 10px;
+    }
+
+    .fix-spacing2 {
+        display: grid;
+        margin-bottom: 10px;
+    }
+
+    * {
+        margin: 0 auto;
+        box-sizing: border-box;
+        max-width: 95%;
+    }
+    
+    .navigation {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        border: 0;
+        background: none;
+        color: var(--accent1-color);
+        position: absolute;
+        top: .5rem;
+        right: 1.5rem;
+    }
+    
+    .hamburger::before {
+        content: "☰";
+        cursor: pointer;
+    } 
+
+    .hamburger.show:after {
+        content: "❌";
+    } 
 
 
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1499px) and (min-width: 801px) {
+@media screen and (max-width: 1499px) and (min-width: 770px) {
       .hamburger {
         display: none;
     }
@@ -8,7 +8,6 @@
         display: flex;
         list-style: none;
         color: var(--secondary-color);
-        min-width: 640px;
         justify-content: space-around;
         border-bottom: solid .25em black;
     }

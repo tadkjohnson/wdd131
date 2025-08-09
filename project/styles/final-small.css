@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) and (min-width: 501px) {
+@media screen and (max-width: 768px) and (min-width: 501px) and (orientation: landscape) and (orientation: portriat) {
   
     .hero-article {
         display: none;
@@ -23,23 +23,24 @@
         display: none;
     }
    
-    /* .hamburger {
+    .hamburger {
         display: block;
         border: 0;
         background: none;
-        color: rgb(69, 209, 123);
+        color: var(--accent1-color);
         position: absolute;
         top: .5rem;
         right: 1.5rem;
-    } 
+    }
 
     .hamburger::before {
         content: "☰";
+        cursor: pointer;
     } 
 
-    .hamburger::after {
+    .hamburger.show:after {
         content: "❌";
-    } */
+    } 
 
 
 
