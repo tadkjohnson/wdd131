@@ -15,6 +15,22 @@ hambutton.addEventListener('click', () => {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const button1 = document.getElementById("button1");
+
+  button1.addEventListener("click", function (event) {
+    event.preventDefault(); // Prevent form from submitting normally (optional)
+
+    // Change button text
+    button1.textContent = "Thanks! We'll be in touch.";
+
+    button1.disabled = true;
+
+    // Optional: Change styling to indicate it's disabled
+    button1.style.backgroundColor = "#f06d6dff";
+    button1.style.cursor = "not-allowed";
+  });
+});
 
 
 
