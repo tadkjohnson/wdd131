@@ -1,4 +1,4 @@
-@media screen and (min-width: 1800px) {
+@media screen and (max-width: 800px) {
 
     * {
         margin: 0 auto;
@@ -316,3 +316,16 @@
 
 
 
+
+
+
+/* small screens below  */
+/* Responsive breakpoint */
+/*
+@media (min-width: 600px) {
+  .two-column {
+    columns: 1;
+  }
+}
+
+*/

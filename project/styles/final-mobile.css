@@ -1,4 +1,9 @@
-@media screen and (min-width: 1800px) {
+@media (max-width: 200px) {
+      .two-column {
+        columns: 1;
+    
+    }
+
 
     * {
         margin: 0 auto;
@@ -300,9 +305,11 @@
         align-content: center;
     }
 
+    /* games page  */
+
+
 }
 
-/* games page  */
 
 
 
@@ -310,9 +317,13 @@
 
 
 
+/* small screens below  */
+/* Responsive breakpoint */
+/*
+@media (min-width: 600px) {
+  .two-column {
+    columns: 1;
+  }
+}
 
-
-
-
-
-
+*/
