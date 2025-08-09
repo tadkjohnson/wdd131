@@ -21,9 +21,30 @@
 
     .navigation {
         display: none;
+        display: flex;  /*last 3*/
+        gap: 20px;
+        list-style: none;
     }
-   
+
+    .navigation.show {
+        display: flex;
+    }
+
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+
+
     .hamburger {
+    display: block;
+    }
+      
+
+
+    #menu {
         display: block;
         border: 0;
         background: none;
@@ -33,12 +54,12 @@
         right: 1.5rem;
     }
 
-    .hamburger::before {
+    #menu::before {
         content: "☰";
         cursor: pointer;
     } 
 
-    .hamburger.show:after {
+    #menu.hamburger.show:after {
         content: "❌";
     } 
 

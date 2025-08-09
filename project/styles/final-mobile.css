@@ -124,4 +124,60 @@
     } 
 
 
+
+
+
+ .navigation {
+        list-style: none;
+        margin: 0 auto;
+        max-width: 640px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        /* padding: 0.5rem; */
+        /* text-align: center; */
+        /* text-decoration: none; */
+
+        font-weight: 700;
+        /* transition: 0.5s;         */
+    }
+
+    .navigation a:hover,
+    .navigation a:active {
+        color: green;
+    }
+
+    .show li {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        font-size: 1.5rem;
+        border: 0;
+        background: none;
+        color: #dd2a2a;
+        position: absolute;
+        top: .5rem;
+        right: 1.5rem;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.show::before {
+        content: "❌";
+    }
+
+
+
 }
