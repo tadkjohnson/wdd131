@@ -34,6 +34,23 @@
 
   <main>
     <h1>Contact the Club</h1>
+    <section class="gamers-choice">
+
+        <form id="gameWith">
+            <p>Do you want to join a game with anyone or in a family setting?</p>
+            <label>
+                <input type="radio" name="group" value="family" required>
+                Family Setting
+            </label>
+            <label>
+                <input type="radio" name="group" value="anyone">Public Setting
+            </label><br>    
+            <button type="submit">Submit</button>
+        </form>
+        <p id="responseMessage3" class="hidden"></p>
+  </section>
+
+
 
     <section class="layout2">   
       <div>
@@ -110,7 +127,7 @@
           <textarea id="feedback" name="feedback" rows="8" cols="60" placeholder="Contact us..."></textarea>
         </div>
 
-        <button type="submit" id="button1">Submit — we'll respond within 24 business hours.</button>
+        <button id="button1">Submit — we'll respond within 24 business hours.</button>
         
       </fieldset>
     </form>
