@@ -121,17 +121,16 @@
 
     .hero-article {
         position: absolute;
-        top: 10rem;
+        top: 8rem;
+        
         width: 25%;
-        height: 35%;
+        height: ~75%;
         float: right;
         background: var(--secondary-color);
     }
 
     .hero-article-p {   /*large size, for smaller screens change the paragraph to be smaller*/
         position: relative;
-        left: 0px;
-        right: 0px;
         padding: 20px;
         font-size: larger;
         max-width: 95%;
