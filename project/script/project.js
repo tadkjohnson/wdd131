@@ -1,15 +1,40 @@
-// const title = document.querySelector('#title');
-// const navigation = document.querySelector('.navigation');
-// const hambutton = document.querySelector('#menu');
+const title = document.querySelector('#title');
+const navigation = document.querySelector('.navigation');
+const hambutton = document.querySelector('#menu');
 
-// // Hamburger menu toggle
-// if (hambutton && navigation) {
-//     hambutton.addEventListener('click', () => {
-//         navigation.classList.toggle('show');
-//     });
-// }
 
-// const submit = document.getElementById('submit');
+document.addEventListener('DOMContentLoaded', () => {
+  const navigation = document.querySelector('.navigation');
+  const hambutton = document.querySelector('#menu');
+
+  if (hambutton && navigation) {
+    hambutton.addEventListener('click', () => {
+      navigation.classList.toggle('show');
+    });
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // if (submit) {
 //     submit.addEventListener('click', (event) => {
@@ -17,6 +42,10 @@
 //         alert('Welcome to the Club! We will respond ASAP!');
 //     });
 // }
+
+
+
+
 
 
 // // this one works   on to the next broken thing 
@@ -33,64 +62,6 @@
 //         });
 //     }
 // });
-
-// // hidden message 1 worked
-// const button1 = document.getElementById('reveal1');
-// const hiddenMessage1 = document.getElementById('hiddenMessage1');
-
-// if (button1 && hiddenMessage1) {
-//     button.addEventListener('click', () => {
-//         hiddenMessage.classList.toggle('hidden');
-//     });
-// }
-
-// // hidden message 2
-// const button2 = document.getElementById('reveal2');
-// const hiddenMessage2 = document.getElementById('hiddenMessage2');
-
-// if (button2 && hiddenMessage) {
-//     button.addEventListener('click', () => {
-//         hiddenMessage2.classList.toggle('hidden');
-//     });
-// }
-
-// // hidden message 3
-// const button3 = document.getElementById('reveal1');
-// const hiddenMessag3 = document.getElementById('hiddenMessage');
-
-// if (button3 && hiddenMessage) {
-//     button.addEventListener('click', () => {
-//         hiddenMessage3.classList.toggle('hidden');
-//     });
-// }
-
-
-
-
-
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   const form = document.getElementById("gameWith");
-//   const result = document.getElementById("responseMessage");
-
-//   form.addEventListener("submit", (event) => {
-//     event.preventDefault(); // same as other. 
-
-//     const selectedOption = document.querySelector('input[name="group"]:checked');
-
-//     if (selectedOption) {
-//       if (selectedOption.value === "family") {
-//         result.textContent = "Join us at the Trenton Branch in Humboldt on Wednesday nights at 6pm.";
-//       } else {
-//         result.textContent = "Visit any one of our local stores for open play with anyone!";
-//       }
-
-//       result.classList.remove("hidden");
-//     }
-//   });
-// });
-
-
 
 
 
@@ -212,62 +183,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-
-
-
-
-// ment.addEventListener("DOMContentLoaded", () => {
-//   const form = document.getElementById("gameWith");
-//   const result = document.getElementById("responseMessage");
-
-//   if (form && result) {
-//     form.addEventListener("submit", (event) => {
-//       event.preventDefault(); // ⛔ Prevent form from submitting and reloading the page
-
-//       const selectedOption = document.querySelector('input[name="group"]:checked');
-
-//       if (selectedOption) {
-//         if (selectedOption.value == "family") {
-//           result.textContent = "Join us at the Trenton Branch in Humboldt on Wednesday nights at 6pm.";
-//         } else {
-//           result.textContent = "Visit any one of our local stores for open play with anyone!";
-//         }
-
-//         result.classList.remove("hidden"); // ✅ Show the message
-//       }
-//     });
-//   }
-// });
-  
-
-
-
-
-
-
-
-
-
-
-// document.addEventListener("DOMContentLoaded", () => {
-//   const form = document.getElementById("gameWith");
-//   const result = document.getElementById("responseMessage");
-
-//   if (form && result) {
-//     form.addEventListener("submit", (event) => {
-//       event.preventDefault();
-
-//       const selectedOption = document.querySelector('input[name="group"]:checked');
-
-//       if (selectedOption) {
-//         if (selectedOption.value === "family") {
-//           result.textContent = "Join us at the Trenton Branch in Humboldt on Wednesday nights at 6pm.";
-//         } else {
-//           result.textContent = "Visit any one of our local stores for open play with anyone!";
-//         }
-//         result.classList.remove("hidden");
-//       }
-//     });
-//   }
-// });
 
