@@ -1,4 +1,4 @@
-@media screen and (max-width: 1799px) {
+@media screen and (max-width: 1499px) and (min-width: 801px) {
 
     * {
         margin: 0 auto;
