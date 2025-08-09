@@ -256,8 +256,6 @@ h6 {
     gap: 10px;
 }
 
-
-
 .layout {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
@@ -311,38 +309,12 @@ h6 {
     align-content: center;
 }
 
-*/
+
 /* places page  */
 
-.map-grid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: red;
-    padding-bottom: 20px;
-    border-top: solid 2px black;
-    padding: 10px;
 
-    /* margin-left: 1em;
-    margin-right: 1em; */
-}
 
-.direction1 {
-    grid-column: 1;
 
-    
-    /* margin-left: 2em; */
-    /* margin-right: 2em; */
-}
-
-.direction2 {
-    grid-column: 2;
-  
-}
-
-.direction3 {
-    grid-column: 3;
- 
-}
 
 
 
