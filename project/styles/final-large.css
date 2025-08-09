@@ -1,11 +1,5 @@
 @media screen and (min-width: 1500px) {
 
-
-
-
-
-
-
     .hero-article {
         position: absolute;
         top: 8rem;
@@ -173,9 +167,37 @@
         grid-row: 2;
         align-content: center;
     }
+    
      .hamburger {
         display: none;
     }
+
+    .navigation {
+        display: flex;
+        list-style: none;
+        color: var(--secondary-color);
+        min-width: 640px;
+        justify-content: space-around;
+        border-bottom: solid .25em black;
+    }
+
+    .navigation li a {
+        display: inline-block;
+        /* allows background and padding */
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        color: var(--accent1-color);
+        transition: 0.3s, color 0.3s;
+        border-radius: 15px;
+    }
+
+    .navigation li a:hover {
+        background-color: var(--accent1-color);
+        color: white;
+    }
+
+
+
 
 }
 
@@ -241,29 +263,6 @@
 
     }
   
-    .navigation {
-        display: flex;
-        list-style: none;
-        color: var(--secondary-color);
-        min-width: 640px;
-        justify-content: space-around;
-        border-bottom: solid .25em black;
-    }
-
-    .navigation li a {
-        display: inline-block;
-        /* allows background and padding */
-        padding: 0.5rem 1rem;
-        text-decoration: none;
-        color: var(--accent1-color);
-        transition: 0.3s, color 0.3s;
-        border-radius: 15px;
-    }
-
-    .navigation li a:hover {
-        background-color: var(--accent1-color);
-        color: white;
-    }
 
     h1 {
         text-align: center;
