@@ -32,6 +32,7 @@ const products = [
         averagerating: 5.0
     }
 ];
+  
 
 
 const select = document.getElementById(`future`);
@@ -69,4 +70,118 @@ if (display) {
     display.textContent = `You have submitted ${reviewCount} review(s)`;
 }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // Populate product select dropdown
+// function populateProductSelect() {
+//   const select = document.getElementById("future");
+//   products.forEach(product => {
+//     const option = document.createElement("option");
+//     option.value = product.id;
+//     option.textContent = product.name;
+//     select.appendChild(option);
+//   });
+// }
+
+
+// const select = document.getElementById(`future`);
+// // function populateProductSelect() {
+// //     const select = document.getElementById("future");
+// // }
+    
+// select.innerHTML = '<option value="" disabled selected>Select a Product</option>';
+
+//   products.forEach(product => {
+//     const option = document.createElement("option");
+//     option.value = product.id;
+//     option.textContent = product.name;
+//     select.appendChild(option);
+//   });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     populateProductSelect();
+
+//     // local storage counter
+//     let reviewCount = localStorage.getItem("reviewCount");
+
+//     //starts at 0 if no counter there.  
+// if (!reviewCount) {
+//     reviewCount = 0;
+// } else {
+//     reviewCount = parseInt(reviewCount, 10);
+    
+// }
+// reviewCount += 1;
+// localStorage.setItem("reviewCount", reviewCount);
+
+// const display = document.getElementById("reviewCountDisplay");
+// if (display) { 
+//     display.textContent = `You have submitted ${reviewCount} review(s)`;
+// }
+// });
 
