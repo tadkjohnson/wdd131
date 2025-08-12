@@ -95,3 +95,7 @@ input[type="checkbox"] {
     margin-bottom: 1em;
 
 }
+.required {
+    color: rgb(252, 140, 66);
+    font-weight: bold;
+}
