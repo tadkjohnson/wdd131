@@ -77,7 +77,19 @@ if (display) {
 
 
 
+t.addEventListener("DOMContentLoaded", () => {
+    // Populate the select dropdown
+    populateProductSelect();
 
+    const form = document.querySelector("form");
+
+    form.addEventListener("submit", () => {
+        let reviewCount = localStorage.getItem("reviewCount");
+        reviewCount = reviewCount ? parseInt(reviewCount, 10) : 0;
+        reviewCount += 1;
+        localStorage.setItem("reviewCount", reviewCount);
+    });
+});
 
 
 
