@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
   let reviewCount = localStorage.getItem('reviewCount');
 
   // Convert to number and increment, or start at 1 if not yet set
-  // reviewCount = reviewCount ? parseInt(reviewCount) + 1 : 1;
+  reviewCount = reviewCount ? parseInt(reviewCount) + 1 : 1;
 
   // Save the updated count back to localStorage
   localStorage.setItem('reviewCount', reviewCount);
