@@ -27,24 +27,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-// cument.addEventListener("DOMContentLoaded", () => {
-//   // Get the current count from localStorage or start at 0
-//   let reviewCount = localStorage.getItem("reviewCount");
-//   reviewCount = reviewCount ? parseInt(reviewCount, 10) : 0;
+cument.addEventListener("DOMContentLoaded", () => {
+  // Get the current count from localStorage or start at 0
+  let reviewCount = localStorage.getItem("reviewCount");
+  reviewCount = reviewCount ? parseInt(reviewCount, 10) : 0;
 
-//   // Increment the count since the user just submitted a review
-//   reviewCount += 1;
-//   localStorage.setItem("reviewCount", reviewCount);
+  // Increment the count since the user just submitted a review
+  reviewCount += 1;
+  localStorage.setItem("reviewCount", reviewCount);
 
-//   // Update the display
-//   const counterDisplay = document.getElementById("reviewCounter");
-//   if (counterDisplay) {
-//     counterDisplay.textContent = `You have ${reviewCount} review(s) completed.`;
-//   }
+  // Update the display
+  const counterDisplay = document.getElementById("reviewCounter");
+  if (counterDisplay) {
+    counterDisplay.textContent = `You have ${reviewCount} review(s) completed.`;
+  }
 
-//   // Also update <span id="counter"> if it's present
-//   const spanCounter = document.getElementById("counter");
-//   if (spanCounter) {
-//     spanCounter.textContent = reviewCount;
-//   }
-// });
+  // Also update <span id="counter"> if it's present
+  const spanCounter = document.getElementById("counter");
+  if (spanCounter) {
+    spanCounter.textContent = reviewCount;
+  }
+});
