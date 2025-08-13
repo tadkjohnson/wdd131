@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="styles/form.css">
     <title> Product Review Form </title>
     <script src="scripts/form.js" defer></script>
-    <form id="reviewForm">
 </head>
 
 <body>
@@ -23,75 +22,77 @@
     </header>
 
     <main class="box3">
-        <form method="get" action="review.html"></form>
-        <fieldset class="fieldset">
-            <!-- <form method="get" action="review.html"></form> -->
-            <label for="future">Product Name <span class="required">**</span></label>
-            <select id="future">name="future" required>
-                <option value="" disabled selected>select a Product</option>
+        <form method="get" action="review.html">
+            <fieldset class="fieldset">
+                <!-- <form method="get" action="review.html"></form> -->
+                <label for="future">Product Name <span class="required">***</span></label>
+                <select id="future" name="future" required>
+                    <option value="" disabled selected>select a Product</option>
+                </select>
 
-            </select>
-        </fieldset>
+            </fieldset>
 
-        <fieldset class="fieldset">
-            <label>1-5 star review<span class="required">**</span></label>
-            <div class="stars">
-                <label for="star1">1 </label><input type="radio" id="star1" name="stars" value="1" required>
-                <label for="star2">2 </label><input type="radio" id="star2" name="stars" value="2" required>
-                <label for="star3">3 </label><input type="radio" id="star3" name="stars" value="3" required>
-                <label for="star4">4 </label><input type="radio" id="star4" name="stars" value="4" required>
-                <label for="star5">5 </label><input type="radio" id="star5" name="stars" value="5" required>
-            </div>
-        </fieldset>
-        <fieldset class="fieldset">
-            <div class="date">
-                <label for="installation">Date of Installation</label>
-                <input type="date" id="installation" name="installation" required>
-            </div>
-        </fieldset>
-        <fieldset class="fieldset">
-            <label>Which features did you (check all that apply)</label>
-            <section class="stacked">
-                <div class="row"><input type="checkbox" id="task1" name="task1" value="task1">
-                    <label for="task1" data-content="features" class="inline">Ease of use</label>
-
+            <fieldset class="fieldset">
+                <label>1-5 star review<span class="required">**</span></label>
+                <div class="stars">
+                    <label for="star1">1 </label><input type="radio" id="star1" name="stars" value="1">
+                    <label for="star2">2 </label><input type="radio" id="star2" name="stars" value="2">
+                    <label for="star3">3 </label><input type="radio" id="star3" name="stars" value="3">
+                    <label for="star4">4 </label><input type="radio" id="star4" name="stars" value="4">
+                    <label for="star5">5 </label><input type="radio" id="star5" name="stars" value="5">
                 </div>
-                <div class="row"><input type="checkbox" id="task2" name="task2" value="task2">
-                    <label for="task2" data-content="features" class="inline">Impressive Design</label>
-
+            </fieldset>
+            <fieldset class="fieldset">
+                <div class="date">
+                    <label for="installation">Date of Installation<span class="required">**</span></label>
+                    <input type="date" id="installation" name="installation" required>
                 </div>
-                <div class="row"><input type="checkbox" id="task3" name="task3" value="task3">
-                    <label for="task3" data-content="features" class="inline">One of a kind</label>
+            </fieldset>
+            <fieldset class="fieldset">
+                <label>Which features did you (check all that apply)</label>
+                <section class="stacked">
+                    <div class="row"><input type="checkbox" id="task1" name="task1" value="task1">
+                        <label for="task1" data-content="features" class="inline">Ease of use</label>
 
+                    </div>
+                    <div class="row"><input type="checkbox" id="task2" name="task2" value="task2">
+                        <label for="task2" data-content="features" class="inline">Impressive Design</label>
+
+                    </div>
+                    <div class="row"><input type="checkbox" id="task3" name="task3" value="task3">
+                        <label for="task3" data-content="features" class="inline">One of a kind</label>
+
+                    </div>
+                    <div class="row"><input type="checkbox" id="task4" name="task4" value="task4">
+                        <label for="task4" data-content="features" class="inline">Simple Use</label>
+
+                    </div>
+                    <div class="row"><input type="checkbox" id="task5" name="task5" value="task">
+                        <label for="task5" data-content="features" class="inline">Color</label>
+
+                    </div>
+                </section>
+
+            </fieldset>
+            <fieldset class="fieldset">
+                <div class="contact">
+                    <label for="review"> Write a Review (optional)</label>
+                    <p></p>
+                    <textarea id="review" name="review" rows="4" cols="100"
+                        placeholder="Share your thoughts..."></textarea>
                 </div>
-                <div class="row"><input type="checkbox" id="task4" name="task4" value="task4">
-                    <label for="task4" data-content="features" class="inline">Simple Use</label>
+            </fieldset>
+            <fieldset class="fieldset">
+                <label for="username">Name (optional)</label>
+                <input type="text" id="username" name="username" placeholder="Enter your name">
+            </fieldset>
 
-                </div>
-                <div class="row"><input type="checkbox" id="task5" name="task5" value="task">
-                    <label for="task5" data-content="features" class="inline">Color</label>
+            <fieldset class="buttonthing">
 
-                </div>
-            </section>
-
-        </fieldset>
-        <fieldset class="fieldset">
-            <div class="contact">
-                <label for="review"> Write a Review (optional)</label>
-                <p></p>
-                <textarea id="review" name="review" rows="4" cols="100" placeholder="Share your thoughts..."></textarea>
-            </div>
-        </fieldset>
-        <fieldset class="fieldset">
-            <label for="username">Name (optional)</label>
-            <input type="text" id="username" name="username" placeholder="Enter your name">
-        </fieldset>
-
-        <fieldset class="buttonthing">
-            <form action="review.html" method="get">
                 <button type="submit">Post it for the World to see!</button>
-            </form>
-        </fieldset>
+
+            </fieldset>
+        </form>
 
     </main>
 
